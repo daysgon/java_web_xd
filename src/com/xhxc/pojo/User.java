@@ -69,7 +69,11 @@ public class User {
         this.active = active;
     }
 
+<<<<<<< HEAD
     public Date getCreate_time() {
+=======
+    public Date getCreateTime() {
+>>>>>>> 8e8bf23a31bd45d16265f91303d006fef7562502
         return createTime;
     }
 

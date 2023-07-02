@@ -115,6 +115,12 @@ public class UserDao {
                 user.getUsername(),user.getPassword(),user.getPhone(),user.getEmail(),user.getId());
     }
 
+    public int delete(int id)
+    {return  JDBCUtil.executeUpdate("update user set active=0 where id =?",
+            id);
+
+
+    }
 
 
 
