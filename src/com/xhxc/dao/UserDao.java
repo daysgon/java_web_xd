@@ -25,7 +25,6 @@ public class UserDao {
                     String phone = rs.getString("phone");
                     String email = rs.getString("email");
                     int role = rs.getInt("role");
-                    String img = rs.getString("img");
                     Date date = rs.getDate("create_time");
                     user.setId(id);
                     user.setUsername(username);
@@ -33,7 +32,6 @@ public class UserDao {
                     user.setRole(role);
                     user.setPhone(phone);
                     user.setActive(active);
-  //                  user.setImg(img);
                     user.setEmail(email);
                     user.setCreateTime(date);
                 } catch (SQLException e) {
@@ -59,7 +57,6 @@ public class UserDao {
                     String phone = rs.getString("phone");
                     String email = rs.getString("email");
                     int role = rs.getInt("role");
-                    String img = rs.getString("img");
                     Date date = rs.getDate("create_time");
                     user.setId(id);
                     user.setUsername(username);
@@ -67,7 +64,6 @@ public class UserDao {
                     user.setRole(role);
                     user.setPhone(phone);
                     user.setActive(active);
-  //                  user.setImg(img);
                     user.setEmail(email);
                     user.setCreateTime(date);
                 } catch (SQLException e) {
@@ -97,7 +93,6 @@ public class UserDao {
                     String phone = rs.getString("phone");
                     String email = rs.getString("email");
                     int role = rs.getInt("role");
-                    String img = rs.getString("img");
                     Date date = rs.getDate("create_time");
                     user.setId(id);
                     user.setUsername(username);
@@ -105,7 +100,6 @@ public class UserDao {
                     user.setRole(role);
                     user.setPhone(phone);
                     user.setActive(active);
-//                    user.setImg(img);
                     user.setEmail(email);
                     user.setCreateTime(date);
                 } catch (SQLException e) {

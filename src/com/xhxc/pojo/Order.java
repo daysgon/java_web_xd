@@ -1,5 +1,7 @@
 package com.xhxc.pojo;
 
+import java.util.Date;
+
 public class Order {
     private int order_id;
     private int purchaser_id;
@@ -8,6 +10,33 @@ public class Order {
     private int seller_id;
     private String seller_name;
     private double price;
+    private int amount;
+    private Date create_time;
+    private String address;
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+    public Date getCreate_time() {
+        return create_time;
+    }
+
+    public void setCreate_time(Date create_time) {
+        this.create_time = create_time;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public int getOrder_id() {
         return order_id;
