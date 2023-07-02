@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94eea79b-7525-49f9-838a-8193258c4689" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xhxc/com/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xhxc/com/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/util/UserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xhxc/com/util/UserUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/web/LoginWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xhxc/com/web/LoginWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/pojo/Seller.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +38,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xhxc/com/web/LoginWeb.java">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/LoginWeb.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
@@ -50,7 +47,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xhxc/com/util/UserUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/util/UserUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
@@ -59,7 +56,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xhxc/com/pojo/User.java">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/pojo/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
@@ -67,11 +64,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/xhxc/com/dao/UserDao.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" lean-forward="true" selection-start-column="13" selection-end-column="16" />
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/pojo/Seller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -94,6 +100,7 @@
         <option value="$PROJECT_DIR$/src/xhxc/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/com/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/xhxc/com/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/dao/UserDao.java" />
       </list>
     </option>
   </component>
@@ -131,22 +138,46 @@
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
@@ -168,7 +199,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688288203828" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688288494291" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -275,15 +306,16 @@
       <option name="presentableId" value="Default" />
       <updated>1688282145361</updated>
       <workItem from="1688282149955" duration="2247000" />
-      <workItem from="1688287850169" duration="354000" />
+      <workItem from="1688287850169" duration="1286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2601000" />
+    <option name="totallyTimeSpent" value="3533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25249502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -326,31 +358,38 @@
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xhxc/com/web/LoginWeb.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/LoginWeb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xhxc/com/util/UserUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/util/UserUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xhxc/com/pojo/User.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xhxc/com/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="13" selection-end-column="16" />
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/pojo/Seller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
