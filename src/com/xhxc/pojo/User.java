@@ -10,7 +10,7 @@ public class User {
     private String email;
     private String address;
     private int active;
-    private Date creaTime;
+    private Date createTime;
     private int role;
 
 
@@ -70,12 +70,12 @@ public class User {
         this.active = active;
     }
 
-    public Date getCreaTime() {
-        return creaTime;
+    public Date getCreateTime() {
+        return createTime;
     }
 
-    public void setCreaTime(Date creaTime) {
-        this.creaTime = creaTime;
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
     }
 
     public int getRole() {
@@ -97,7 +97,7 @@ public class User {
                 ", email='" + email + '\'' +
                 ", address='" + address + '\'' +
                 ", active=" + active +
-                ", creaTime=" + creaTime +
+                ", createTime=" + createTime +
                 ", role=" + role +
                 '}';
     }
