@@ -1,4 +1,4 @@
-package com.web;
+package com.xhxc.web;
 
 public class LoginWeb {
 }

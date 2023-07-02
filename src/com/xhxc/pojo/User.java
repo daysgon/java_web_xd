@@ -1,4 +1,4 @@
-package com.pojo;
+package com.xhxc.pojo;
 
 public class User {
 }

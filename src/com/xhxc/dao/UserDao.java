@@ -1,4 +1,4 @@
-package com.dao;
+package com.xhxc.dao;
 
 public class UserDao {
 }
