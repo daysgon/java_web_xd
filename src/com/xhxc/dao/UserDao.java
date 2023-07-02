@@ -33,7 +33,7 @@ public class UserDao {
                     user.setRole(role);
                     user.setPhone(phone);
                     user.setActive(active);
-                    user.setImg(img);
+  //                  user.setImg(img);
                     user.setEmail(email);
                     user.setCreateTime(date);
                 } catch (SQLException e) {
@@ -67,7 +67,7 @@ public class UserDao {
                     user.setRole(role);
                     user.setPhone(phone);
                     user.setActive(active);
-                    user.setImg(img);
+  //                  user.setImg(img);
                     user.setEmail(email);
                     user.setCreateTime(date);
                 } catch (SQLException e) {
@@ -105,7 +105,7 @@ public class UserDao {
                     user.setRole(role);
                     user.setPhone(phone);
                     user.setActive(active);
-                    user.setImg(img);
+//                    user.setImg(img);
                     user.setEmail(email);
                     user.setCreateTime(date);
                 } catch (SQLException e) {
