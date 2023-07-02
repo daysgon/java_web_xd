@@ -18,7 +18,7 @@ public class UserUtil {
         PreparedStatement pstmt = null;
         try {
 //            连接创建，选择数据库
-            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/shop1?useUnicode=true&characterEncoding=utf8","root","1234");
+            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/ele?useUnicode=true&characterEncoding=utf8","root","1472580369");
 //            创建查询窗口
             pstmt= conn.prepareStatement(sql);
 //            循环obj进行赋值
@@ -53,7 +53,7 @@ public class UserUtil {
         PreparedStatement pstmt = null;
         try {
 //            连接创建，选择数据库
-            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/shop1?useUnicode=true&characterEncoding=utf8","root","1234");
+            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/ele?useUnicode=true&characterEncoding=utf8","root","1472580369");
 //            创建查询窗口
             pstmt= conn.prepareStatement(sql);
 //            循环obj进行赋值
@@ -92,7 +92,7 @@ public class UserUtil {
         PreparedStatement pstmt = null;
         try {
 //            连接创建，选择数据库
-            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/shop1?useUnicode=true&characterEncoding=utf8","root","1234");
+            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/ele?useUnicode=true&characterEncoding=utf8","root","1472580369");
 //            创建查询窗口
             pstmt= conn.prepareStatement(sql);
 //            循环obj进行赋值
