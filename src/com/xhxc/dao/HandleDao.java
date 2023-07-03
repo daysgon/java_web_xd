@@ -42,8 +42,37 @@ public class HandleDao {
                 return handle;
             }
         });
+    }
+
+
+
+    public Handle getOneById(int id)
+    {  return JDBCUtil.QueryOne("select *from handle where id=?", new RowMap<Handle>() {
+        @Override
+        public Handle rowMapping(ResultSet rs)
+        {Handle handle=new Handle();
+            try {
+
+                String name=rs.getString("name");
+                int id=rs.getInt("id");
+                int active = rs.getInt("active");
+                int parentId =rs.getInt("parent_id");
+                handle.setParentId(parentId);
+                handle.setName(name);
+                handle.setId(id);
+                handle.setActive(active);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            return handle;
+
+
+        }
+    },id);
 
     }
+
+
 
 
     public int add(Handle handle) {
@@ -51,6 +80,24 @@ public class HandleDao {
     }
 
 
+    public int delete(int id)
+    {return  JDBCUtil.executeUpdate("update handle set active=0 where id =?",
+            id);
+
+
+    }
+
+    public int active(int id)
+    {return  JDBCUtil.executeUpdate("update handle set active=1 where id =?",
+            id);
+
+
+    }
+
+    public int update(Handle handle) {
+        return  JDBCUtil.executeUpdate("update handle set name= ? ,parent_id = ?  where id =?",
+                handle.getName(),handle.getParentId(),handle.getId());
+    }
 
 
 
