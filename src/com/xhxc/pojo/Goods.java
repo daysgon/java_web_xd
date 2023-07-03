@@ -99,12 +99,12 @@ public class Goods {
     @Override
     public String toString() {
         return "Goods{" +
-                "goodsId=" + goodsId +
+                "goods_id=" + goodsId +
                 ", goodsname='" + goodsName + '\'' +
-                ", fatherLabel='" + fatherLabel + '\'' +
-                ", goodsDes='" + goodsDes + '\'' +
-                ", sonLabel='" + sonLabel + '\'' +
-                ", sellerId='" + seller + '\'' +
+                ", fatherlabel='" + fatherLabel + '\'' +
+                ", goods_des='" + goodsDes + '\'' +
+                ", sonlabel='" + sonLabel + '\'' +
+                ", seller='" + seller + '\'' +
                 ", price=" + price +
                 ", active=" + active +
                 ", img='" + img + '\'' +
