@@ -8,7 +8,7 @@ public class Goods {
     private String fatherLabel;
     private String goodsDes;
     private String sonLabel;
-    private String sellerId;
+    private String seller;
     private int price;
     private int active;
     private String img;
@@ -55,12 +55,12 @@ public class Goods {
         this.sonLabel = sonLabel;
     }
 
-    public String getSellerId() {
-        return sellerId;
+    public String getSeller() {
+        return seller;
     }
 
-    public void setSellerId(String sellerId) {
-        this.sellerId = sellerId;
+    public void setSeller(String seller) {
+        this.seller = seller;
     }
 
     public int getPrice() {
@@ -99,12 +99,12 @@ public class Goods {
     @Override
     public String toString() {
         return "Goods{" +
-                "goodsId=" + goodsId +
-                ", goodsName='" + goodsName + '\'' +
-                ", fatherLabel='" + fatherLabel + '\'' +
-                ", goodsDes='" + goodsDes + '\'' +
-                ", sonLabel='" + sonLabel + '\'' +
-                ", sellerId='" + sellerId + '\'' +
+                "goods_id=" + goodsId +
+                ", goodsname='" + goodsName + '\'' +
+                ", fatherlabel='" + fatherLabel + '\'' +
+                ", goods_des='" + goodsDes + '\'' +
+                ", sonlabel='" + sonLabel + '\'' +
+                ", seller='" + seller + '\'' +
                 ", price=" + price +
                 ", active=" + active +
                 ", img='" + img + '\'' +
