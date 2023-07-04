@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("admin/doaddhandlelist")
+@WebServlet("/admin/doaddhandlelist")
 public class DoAddHandleList extends HttpServlet {
     private HandleDao dao=new HandleDao();
 
@@ -33,7 +33,7 @@ public class DoAddHandleList extends HttpServlet {
         else
             //需修改
         {req.setAttribute("msg","添加失败");
-            req.getRequestDispatcher("/back/fail.jsp").forward(req,resp);
+            req.getRequestDispatcher("/fail.jsp").forward(req,resp);
 
         }
     }

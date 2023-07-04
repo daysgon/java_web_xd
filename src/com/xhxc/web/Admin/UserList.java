@@ -13,13 +13,13 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 
-@WebServlet("/userlsit")
+@WebServlet("/userlist")
 public class UserList extends HttpServlet {
 private UserDao dao=new UserDao();
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ArrayList<User> allusers=dao.getAll();
         req.setAttribute("allusers",allusers);
-        req.getRequestDispatcher("/userlist.jsp").forward(req,resp);
+        req.getRequestDispatcher("/admin/userlist.jsp").forward(req,resp);
     }
 }

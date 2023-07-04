@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("doupdatehandlelist")
+@WebServlet("/doupdatehandlelist")
 public class DoUpdateHandleList extends HttpServlet {
     private HandleDao dao=new HandleDao();
 

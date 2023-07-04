@@ -39,11 +39,11 @@ public class DoAddUserList extends HttpServlet {
         int add=dao.add(user);
         if(add>0)
         {
-            resp.sendRedirect("/back/list");
+            resp.sendRedirect("/admin/userlist");
         }
         else
         {   req.setAttribute("msg","添加失败");
-            req.getRequestDispatcher("fail.jsp").forward(req,resp);
+            req.getRequestDispatcher("/fail.jsp").forward(req,resp);
         }
 
 
