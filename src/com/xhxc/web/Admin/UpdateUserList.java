@@ -24,6 +24,6 @@ public class UpdateUserList extends HttpServlet {
         int id = Integer.parseInt(req.getParameter("id"));
         User oneById=dao.getOneById(id);
         req.setAttribute("user",oneById);
-        req.getRequestDispatcher("/admin/updateuserlist.jsp").forward(req,resp);
+        req.getRequestDispatcher("/admin/updateUserList.jsp").forward(req,resp);
     }
 }

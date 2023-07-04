@@ -20,6 +20,6 @@ private UserDao dao=new UserDao();
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ArrayList<User> allusers=dao.getAll();
         req.setAttribute("allusers",allusers);
-        req.getRequestDispatcher("/admin/userlist.jsp").forward(req,resp);
+        req.getRequestDispatcher("/admin/userList.jsp").forward(req,resp);
     }
 }
