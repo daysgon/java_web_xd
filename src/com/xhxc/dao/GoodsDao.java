@@ -17,26 +17,15 @@ public class GoodsDao {
             public Goods rowMapping(ResultSet rs) {
                 Goods goods = new Goods();
                 try {
-                    int goodsId = rs.getInt("goods_id");
-                    String goodsName = rs.getString("goodsname");
-                    String fatherLabel = rs.getString("fatherlabel");
-                    int price = rs.getInt("price");
-                    String goodsDes = rs.getString("goods_des");
-                    String sonLabel = rs.getString("sonlabel");
-                    String seller = rs.getString("seller");
-                    int active = rs.getInt("active");
-                    String img = rs.getString("img");
-                    Date date = rs.getDate("create_time");
-                    goods.setGoodsId(goodsId);
-                    goods.setGoodsName(goodsName);
-                    goods.setFatherLabel(fatherLabel);
-                    goods.setGoodsDes(goodsDes);
-                    goods.setSonLabel(sonLabel);
-                    goods.setSeller(seller);
-                    goods.setPrice(price);
-                    goods.setActive(active);
-                    // goods.setImg(img);
-                    goods.setCreateTime(date);
+                    goods.setId(rs.getInt("id"));
+                    goods.setPrice(rs.getDouble("price"));
+                    goods.setStore(rs.getInt("store"));
+                    goods.setActive(rs.getInt("active"));
+                    goods.setHid(rs.getInt("hid"));
+                    goods.setMessage(rs.getString("message"));
+                    goods.setGoodsname(rs.getString("goodsname"));
+                    goods.setUid(rs.getInt("uid"));
+                    goods.setImg(rs.getString("img"));
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
@@ -68,7 +57,7 @@ public class GoodsDao {
             }
         });
     }
-    */
+
     public int add(Goods goods){
         return JDBCUtil.executeUpdate("insert into goods(goods_id,goods_des,goodsname,fatherlabel,sonlabel,seller,price,active,create_time) values(?,?,?,?,?,?,?,?,now())"
                 ,goods.getGoodsId(),goods.getGoodsDes(),goods.getGoodsName(),
@@ -122,4 +111,5 @@ public class GoodsDao {
     public int del(int goodsId){
         return JDBCUtil.executeUpdate("update goods set active=0 where goods_id=?",goodsId);
     }
+    */
 }

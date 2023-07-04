@@ -3,80 +3,38 @@ package com.xhxc.pojo;
 import java.util.Date;
 
 public class Goods {
-    private int goodsId;
-    private String goodsName;
-    private String fatherLabel;
-    private String goodsDes;
-    private String sonLabel;
-    private String seller;
-    private int price;
-    private int active;
+    private Integer id;
+    private String goodsname;
+    private String message;
     private String img;
-    private Date createTime;
+    private Integer store;
+    private Double price;
+    private Integer hid;
+    private Integer uid;
+    private Integer active;
 
-
-    public int getGoodsId() {
-        return goodsId;
+    public Integer getId() {
+        return id;
     }
 
-    public void setGoodsId(int goodsId) {
-        this.goodsId = goodsId;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public String getGoodsName() {
-        return goodsName;
+    public String getGoodsname() {
+        return goodsname;
     }
 
-    public void setGoodsName(String goodsName) {
-        this.goodsName = goodsName;
+    public void setGoodsname(String goodsname) {
+        this.goodsname = goodsname;
     }
 
-    public String getFatherLabel() {
-        return fatherLabel;
+    public String getMessage() {
+        return message;
     }
 
-    public void setFatherLabel(String fatherLabel) {
-        this.fatherLabel = fatherLabel;
-    }
-
-    public String getGoodsDes() {
-        return goodsDes;
-    }
-
-    public void setGoodsDes(String goodsDes) {
-        this.goodsDes = goodsDes;
-    }
-
-    public String getSonLabel() {
-        return sonLabel;
-    }
-
-    public void setSonLabel(String sonLabel) {
-        this.sonLabel = sonLabel;
-    }
-
-    public String getSeller() {
-        return seller;
-    }
-
-    public void setSeller(String seller) {
-        this.seller = seller;
-    }
-
-    public int getPrice() {
-        return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
-    public int getActive() {
-        return active;
-    }
-
-    public void setActive(int active) {
-        this.active = active;
+    public void setMessage(String message) {
+        this.message = message;
     }
 
     public String getImg() {
@@ -87,29 +45,58 @@ public class Goods {
         this.img = img;
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public Integer getStore() {
+        return store;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setStore(Integer store) {
+        this.store = store;
     }
 
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    public Integer getHid() {
+        return hid;
+    }
+
+    public void setHid(Integer hid) {
+        this.hid = hid;
+    }
+
+    public Integer getUid() {
+        return uid;
+    }
+
+    public void setUid(Integer uid) {
+        this.uid = uid;
+    }
+
+    public Integer getActive() {
+        return active;
+    }
+
+    public void setActive(Integer active) {
+        this.active = active;
+    }
 
     @Override
     public String toString() {
-        return "Goods{" +
-                "goods_id=" + goodsId +
-                ", goodsname='" + goodsName + '\'' +
-                ", fatherlabel='" + fatherLabel + '\'' +
-                ", goods_des='" + goodsDes + '\'' +
-                ", sonlabel='" + sonLabel + '\'' +
-                ", seller='" + seller + '\'' +
-                ", price=" + price +
-                ", active=" + active +
+        return "Product{" +
+                "id=" + id +
+                ", goodsname='" + goodsname + '\'' +
+                ", message='" + message + '\'' +
                 ", img='" + img + '\'' +
-                ", createTime=" + createTime +
+                ", store=" + store +
+                ", price=" + price +
+                ", hid=" + hid +
+                ", uid=" + uid +
+                ", active=" + active +
                 '}';
     }
-
 }
