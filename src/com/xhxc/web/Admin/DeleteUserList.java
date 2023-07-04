@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("deleteuserlist")
+@WebServlet("/deleteuserlist")
 public class DeleteUserList extends HttpServlet {
 private UserDao dao=new UserDao();
     @Override
@@ -18,7 +18,7 @@ private UserDao dao=new UserDao();
 
         int delete=dao.delete(id);
         if (delete>0){
-            resp.sendRedirect("/userlist");
+            resp.sendRedirect("/admin/userlist");
         }else{
             req.setAttribute("msg","删除失败");
             req.getRequestDispatcher("/fail.jsp").forward(req,resp);
