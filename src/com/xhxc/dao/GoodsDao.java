@@ -106,9 +106,8 @@ public class GoodsDao {
         return JDBCUtil.executeUpdate("update goods set goods_des=?,goodsname=?,fatherlabel=?,sonlabel=?,price=? where goods_id=?",
                 goods.getGoodsDes(),goods.getGoodsName(),goods.getFatherLabel(),goods.getSonLabel(),goods.getPrice());
     }
-    */
-    public int delete(int goodsId){
-        return JDBCUtil.executeUpdate("update goods set active=0 where id=?",goodsId);
+    public int del(int goodsId){
+        return JDBCUtil.executeUpdate("update goods set active=0 where goods_id=?",goodsId);
     }
-
+    */
 }
