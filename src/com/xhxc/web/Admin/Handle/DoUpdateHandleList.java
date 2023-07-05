@@ -29,7 +29,7 @@ public class DoUpdateHandleList extends HttpServlet {
         handle.setId(id);
         int update=dao.update(handle);
         if (update>0){
-            resp.sendRedirect("/admin/handle");
+            resp.sendRedirect("/admin/handlelisy");
         }else{
             req.setAttribute("msg","修改失败");
             req.getRequestDispatcher("/back/fail.jsp").forward(req,resp);

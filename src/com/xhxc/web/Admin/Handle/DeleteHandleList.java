@@ -24,7 +24,7 @@ public class DeleteHandleList extends HttpServlet {
             resp.sendRedirect("/admin/handlelist");
         }else{
             req.setAttribute("msg","删除失败");
-            req.getRequestDispatcher("/back/fail.jsp").forward(req,resp);
+            req.getRequestDispatcher("/fail.jsp").forward(req,resp);
         }
 
 

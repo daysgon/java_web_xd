@@ -16,7 +16,7 @@ private GoodsDao dao=new GoodsDao();
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int id = Integer.parseInt(req.getParameter("id"));
-        int delete=dao.delete(id);
+        int delete=dao.del(id);
         if (delete>0){
             resp.sendRedirect("/admin/goodslist");
         }else{

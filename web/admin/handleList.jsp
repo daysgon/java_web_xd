@@ -75,7 +75,7 @@
         </div>
         <div class="rtcont fr">
             <div class="panel admin-panel">
-                <div class="panel-head"><strong class="icon-reorder"> 内容列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
+                <div class="panel-head"><strong class="icon-reorder"> 品类列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
                 <div class="padding border-bottom">
                     <ul class="search" style="padding-left:10px;">
                         <li> <a class="button border-main icon-plus-square-o" href="/back/addlist"> 添加内容</a> </li>
@@ -106,7 +106,7 @@
 
 
 
-                            <td><div class="button-group"> <a class="button border-main" href="/admin/updatehandlelist?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/admin/deletehandlelist?id=${u.id}"><span class="icon-trash-o"></span> 删除</a></td></td>
+                            <td><div class="button-group"> <a class="button border-main" href="/admin/updatehandlelist?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/admin/deletehandlelist?id=${u.id}"><span class="icon-trash-o"></span> 删除</a></div></td>
                         </tr>
                         </c:forEach>
                 </table>
