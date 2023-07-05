@@ -13,51 +13,14 @@
     <meta name="author" content="order by dede58.com"/>
     <title>个人中心-信息</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/pintuer.css">
+    <link rel="stylesheet" type="text/css" href="../css/admin.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/pintuer.js"></script>
 </head>
 <body>
 <!-- start header -->
-<header>
-    <div class="top center">
-        <div class="left fl">
-            <ul>
-                <li><a href="http://www.mi.com/" target="_blank">小米商城</a></li>
-                <li>|</li>
-                <li><a href="">MIUI</a></li>
-                <li>|</li>
-                <li><a href="">米聊</a></li>
-                <li>|</li>
-                <li><a href="">游戏</a></li>
-                <li>|</li>
-                <li><a href="">多看阅读</a></li>
-                <li>|</li>
-                <li><a href="">云服务</a></li>
-                <li>|</li>
-                <li><a href="">金融</a></li>
-                <li>|</li>
-                <li><a href="">小米商城移动版</a></li>
-                <li>|</li>
-                <li><a href="">问题反馈</a></li>
-                <li>|</li>
-                <li><a href="">Select Region</a></li>
-                <div class="clear"></div>
-            </ul>
-        </div>
-        <div class="right fr">
-            <div class="gouwuche fr"><a href="./dingdanzhongxin.html">我的订单</a></div>
-            <div class="fr">
-                <ul>
-                    <li><a href="./login.html" target="_blank">登录</a></li>
-                    <li>|</li>
-                    <li><a href="./register.html" target="_blank" >注册</a></li>
-                    <li>|</li>
-                    <li><a href="#top">个人中心</a></li>
-                </ul>
-            </div>
-            <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-    </div>
-</header>
+
 <!--end header -->
 <!-- start banner_x -->
 <div class="banner_x center">
@@ -76,17 +39,15 @@
             <li><a href="">社区</a></li>
         </ul>
     </div>
-    <div class="search fr">
-        <form action="" method="post">
-            <div class="text fl">
-                <input type="text" class="shuru"  placeholder="小米6&nbsp;小米MIX现货">
-            </div>
-            <div class="submit fl">
-                <input type="submit" class="sousuo" value="搜索"/>
-            </div>
-            <div class="clear"></div>
-        </form>
-        <div class="clear"></div>
+    <div class="navright fl">
+        <ul>
+            <li>
+                <div  style="text-align: right">
+                    <a href="./login.html" target="_blank">退出登录</a>|<a href="./register.html" target="_blank" >注册</a>|<a href="./self_info.html">返回首页</a>
+                </div>
+
+            </li>
+        </ul>
     </div>
 </div>
 <!-- end banner_x -->
@@ -97,21 +58,13 @@
             <div class="ddzx">订单中心</div>
             <div class="subddzx">
                 <ul>
-                    <li><a href="./dingdanzhongxin.html" >我的订单</a></li>
-                    <li><a href="">意外保</a></li>
-                    <li><a href="">团购订单</a></li>
-                    <li><a href="">评价晒单</a></li>
+                    <li><a href="/user/usermain" >我的订单</a></li>
+                    <li><a href="/user/self_info" style="color:#ff6700;font-weight:bold;">个人中心</a></li>
+
                 </ul>
             </div>
-            <div class="ddzx">个人中心</div>
-            <div class="subddzx">
-                <ul>
-                    <li><a href="./self_info.html" style="color:#ff6700;font-weight:bold;">我的个人中心</a></li>
-                    <li><a href="">消息通知</a></li>
-                    <li><a href="">优惠券</a></li>
-                    <li><a href="">收货地址</a></li>
-                </ul>
-            </div>
+
+
         </div>
         <div class="rtcont fr">
             <div class="grzlbt ml40">我的资料</div>
@@ -119,7 +72,7 @@
             <div class="subgrzl ml40"><span>手机号</span><span>${user.phone}</span></div>
             <div class="subgrzl ml40"><span>邮箱</span><span>${user.email}</span></div>
             <div class="subgrzl ml40"><span>密码</span><span>${user.password}</span></div>
-            <div class="subgrzl ml40"><span>收货地址</span><span>${user.address}</span></div>
+            <div class="subgrzl ml40"><span>地址</span><span>${user.address}</span></div>
             <div class="xiugai ml40"><span><a href="/user/infoUpdate">修改</a></span></div>
 
 
@@ -132,9 +85,8 @@
 <!-- self_info -->
 
 <footer class="mt20 center">
-    <div class="mt20">小米商城|MIUI|米聊|多看书城|小米路由器|视频电话|小米天猫店|小米淘宝直营店|小米网盟|小米移动|隐私政策|Select Region</div>
-    <div>©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2014]0059-0009号</div>
-    <div>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</div>
+    <div class="mt20">星火小仓：做最好的电子元件商城</div>
+
 </footer>
 </body>
 </html>

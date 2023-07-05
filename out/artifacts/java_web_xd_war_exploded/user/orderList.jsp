@@ -59,7 +59,7 @@
             <div class="subddzx">
                 <ul>
                     <li><a href="/user/usermain" style="color:#ff6700;font-weight:bold;">我的订单</a></li>
-                    <li><a href="/user/self_info">个人信息</a></li>
+                    <li><a href="/user/self_info">个人中心</a></li>
 
 
                 </ul>
@@ -69,29 +69,41 @@
         <div class="rtcont fr">
             <div class="panel admin-panel">
                 <div class="panel-head"><strong class="icon-reorder"> 用户列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
+                <div class="padding border-bottom">
+                    <ul class="search" style="padding-left:10px;">
+                        <li> <a class="button border-main icon-plus-square-o" href="/back/addlist"> 添加内容</a> </li>
 
+
+
+                        <li>
+                            <input type="text" placeholder="请输入搜索关键字" name="keywords" class="input" style="width:250px; line-height:17px;display:inline-block" />
+                            <a href="javascript:void(0)" class="button border-main icon-search" onclick="changesearch()" > 搜索</a></li>
+                    </ul>
+                </div>
                 <table class="table table-hover text-center">
                     <tr>
-                        <th width="100" style="text-align:left; padding-left:20px;">订单号</th>
-                        <th  width="100" style="text-align:left; padding-left:20px;">商品</th>
-                        <th  width="100" style="text-align:left; padding-left:20px;">卖家</th>
-                        <th  width="100" style="text-align:left; padding-left:20px;">单价</th>
-                        <th width="100" style="text-align:left; padding-left:20px;">数量</th>
-                        <th width="100" style="text-align:left; padding-left:20px;">订单创建时间</th>
-                        <th  width="100" style="text-align:left; padding-left:20px;">收货地址</th>
+                        <th width="100" style="text-align:left; padding-left:20px;">ID</th>
+                        <th  width="100" style="text-align:left; padding-left:20px;">用户名</th>
+                        <th  width="100" style="text-align:left; padding-left:20px;">密码</th>
+                        <th  width="100" style="text-align:left; padding-left:20px;">手机</th>
+                        <th width="100" style="text-align:left; padding-left:20px;">邮箱</th>
+                        <th width="100" style="text-align:left; padding-left:20px;">是否有效</th>
+                        <th  width="100" style="text-align:left; padding-left:20px;">角色</th>
+                        <th  width="100" style="text-align:left; padding-left:20px;">创建时间</th>
                         <th>操作</th>
                     </tr>
                     <volist name="list" id="vo">
-                        <c:forEach items="${all}" var="u">
+                        <c:forEach items="${allusers}" var="u">
                         <tr>
-                            <td style="text-align:left; padding-left:20px;">${u.orderId}</td>
-                            <td>${u.goodName}</td>
-                            <td>${u.sellerName}</td>
-                            <td>${u.price}</td>
-                            <td>${u.amount}</td>
+                            <td style="text-align:left; padding-left:20px;">${u.id}</td>
+                            <td>${u.username}</td>
+                            <td>${u.password}</td>
+                            <td>${u.phone}</td>
+                            <td>${u.email}</td>
+                            <td>${u.active}</td>
+                            <td>${u.role}</td>
                             <td>${u.createTime}</td>
-                            <td>${u.address}</td>
-                            <td><div class="button-group"> <a class="button border-main" href="/admin/updateuserlist?id=${u.orderId}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/admin/deleteuserlist?id=${u.orderId}"><span class="icon-trash-o"></span> 删除</a></td></td>
+                            <td><div class="button-group"> <a class="button border-main" href="/admin/updateuserlist?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/admin/deleteuserlist?id=${u.id}"><span class="icon-trash-o"></span> 删除</a></td></td>
                         </tr>
                         </c:forEach>
                 </table>
