@@ -57,18 +57,16 @@ public class GoodsDao {
             }
         });
     }
-
-    public int add(Goods goods){
-        return JDBCUtil.executeUpdate("insert into goods(goods_id,goods_des,goodsname,fatherlabel,sonlabel,seller,price,active,create_time) values(?,?,?,?,?,?,?,?,now())"
-                ,goods.getGoodsId(),goods.getGoodsDes(),goods.getGoodsName(),
-        goods.getFatherLabel(), goods.getSonLabel(), goods.getSeller(), goods.getPrice(),
-        goods.getActive()
-        // goods.getImg(img),
-        );
+*/
+   public int add(Goods p) {
+       return JDBCUtil.executeUpdate("insert into goods(goodsname,price,store,img,hid,uid,active,message) values(?,?,?,?,?,?,?,?)",
+               p.getGoodsname(),p.getPrice(),p.getStore(),p.getImg(),p.getHid(),p.getUid(),p.getActive(),p.getMessage());
 
 
-    }
 
+
+   }
+/*
     //    根据id查一个
     public Goods getOneById(int goodsId){
         return JDBCUtil.QueryOne("select * from goods where goods_id=?", new RowMap<Goods>() {
