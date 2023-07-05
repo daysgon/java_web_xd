@@ -37,11 +37,14 @@ header .top .right .gouwuche{margin:0 20px;background: #424242;width: 120px;text
 header .top .right .gouwuche:hover{color:#000;background: #666;}
 /*banner_x*/
 .banner_x {width: 1226px;height: 100px;}
-.banner_x .logo{background: url('../image/logo_top.png') no-repeat center center;width: 50px;height: 100px;}
-.banner_x .ad_top{width: 180px;height: 100px;background: url('../image/yyymix.gif') no-repeat center center;}
+.banner_x .logo{background: url('../image/logo.png') no-repeat center center;width: 200px;height: 100px;}
+
 .banner_x .nav ul li{float: left;height: 100px;line-height: 100px;}
 .banner_x .nav ul li a{display:inline-block;color: #000;font-size: 16px;padding: 0 10px;}
 .banner_x .nav ul li a:hover{color: rgb(255,103,0); }
+.banner_x .navright ul li{float: right;height: 100px;line-height: 100px;}
+.banner_x .navright ul li a{display:inline-block;color: #000;font-size: 16px;padding: 0 10px;}
+.banner_x .navright ul li a:hover{color: rgb(255,103,0); }
 .banner_x .search{width: 308px;height: 100px;line-height: 100px;}
 .banner_x .search .text{width: 250px;height:50px;line-height: 50px;font-size: 12px;margin-top: 25px;border:1px solid #ccc;}
 .banner_x .search .text:hover{border-color: #ff6700;}
