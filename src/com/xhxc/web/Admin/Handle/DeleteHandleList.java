@@ -21,7 +21,7 @@ public class DeleteHandleList extends HttpServlet {
 
         int delete=dao.delete(id);
         if (delete>0){
-            resp.sendRedirect("/back/handle");
+            resp.sendRedirect("/admin/handlelist");
         }else{
             req.setAttribute("msg","删除失败");
             req.getRequestDispatcher("/back/fail.jsp").forward(req,resp);
