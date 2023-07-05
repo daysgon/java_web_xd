@@ -6,13 +6,15 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="order by dede58.com"/>
-    <title>小米商城-个人中心</title>
-    <link rel="stylesheet" type="text/css" href="././css/style.css">
+    <title>个人中心-订单</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
 </head>
 <body>
 <!-- start header -->
@@ -106,7 +108,7 @@
             <div class="ddzx">个人中心</div>
             <div class="subddzx">
                 <ul>
-                    <li><a href="./self_info.html">我的个人中心</a></li>
+                    <li><a href="/user/self_info">我的个人中心</a></li>
                     <li><a href="">消息通知</a></li>
                     <li><a href="">优惠券</a></li>
                     <li><a href="">收货地址</a></li>
@@ -115,34 +117,25 @@
         </div>
         <div class="rtcont fr">
             <div class="ddzxbt">交易订单</div>
-            <div class="ddxq">
-                <div class="ddspt fl"><img src="./image/gwc_xiaomi6.jpg" alt=""></div>
-                <div class="ddbh fl">订单号:1705205643098724</div>
-                <div class="ztxx fr">
-                    <ul>
-                        <li>已发货</li>
-                        <li>￥2499.00</li>
-                        <li>2017/05/20 13:30</li>
-                        <li><a href="">订单详情></a></li>
-                        <div class="clear"></div>
-                    </ul>
+
+            <c:forEach items="${all}" var="u">
+                <div class="ddxq">
+                    <div class="ddspt fl"><img src="../image/gwc_xiaomi6.jpg" alt=""></div>
+                    <div class="ddbh fl">订单号:${u.orderId}</div>
+                    <div class="ztxx fr">
+                        <ul>
+                            <li>${u.goodName}</li>
+                            <li>${u.sellerName}</li>
+
+                            <li><a href="">订单详情></a></li>
+                            <div class="clear"></div>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
                 </div>
-                <div class="clear"></div>
-            </div>
-            <div class="ddxq">
-                <div class="ddspt fl"><img src="./image/liebiao_hongmin4_dd.jpg" alt=""></div>
-                <div class="ddbh fl">订单号:170526435444865</div>
-                <div class="ztxx fr">
-                    <ul>
-                        <li>已发货</li>
-                        <li>￥1999.00</li>
-                        <li>2017/05/26 14:02</li>
-                        <li><a href="">订单详情></a></li>
-                        <div class="clear"></div>
-                    </ul>
-                </div>
-                <div class="clear"></div>
-            </div>
+            </c:forEach>
+
+
         </div>
         <div class="clear"></div>
     </div>

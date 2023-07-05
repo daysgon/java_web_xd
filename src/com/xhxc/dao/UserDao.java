@@ -94,6 +94,7 @@ public class UserDao {
                     String email = rs.getString("email");
                     int role = rs.getInt("role");
                     Date date = rs.getDate("create_time");
+                    user.setAddress(rs.getString("address"));
                     user.setId(id);
                     user.setUsername(username);
                     user.setPassword(password);

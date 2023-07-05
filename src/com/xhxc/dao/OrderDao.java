@@ -13,9 +13,8 @@ import java.util.ArrayList;
 
 public class OrderDao {
 
-
     public ArrayList<Order> getGoodsByPurcherId(int id){
-        return JDBCUtil.executeQuery("select * from Order where purchaser_id = ?", new RowMap<Order>() {
+        return JDBCUtil.executeQuery("select * from orders where purchaser_id = ?", new RowMap<Order>() {
             @Override
             public Order rowMapping(ResultSet rs) {
                 Order order = new Order();

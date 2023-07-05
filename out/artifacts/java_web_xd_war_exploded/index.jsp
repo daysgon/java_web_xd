@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: 13431
+  Date: 2023/7/5
+  Time: 9:21
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -6,6 +13,7 @@
   <meta name="author" content="order by dede58.com"/>
   <title>小米商城-个人中心</title>
   <link rel="stylesheet" type="text/css" href="./css/style.css">
+
 </head>
 <body>
 <!-- start header -->

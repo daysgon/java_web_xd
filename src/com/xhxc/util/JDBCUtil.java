@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class JDBCUtil {
     static{
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -19,7 +19,7 @@ public class JDBCUtil {
         int result=0;
         try {
 //            连接创建，选择数据库
-            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/ele?useUnicode=true&characterEncoding=utf8","root","1472580369");
+            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/ele?useUnicode=true&characterEncoding=utf8","root","111111");
 //            创建查询窗口
             pstmt= conn.prepareStatement(sql);
 //            循环obj进行赋值
@@ -53,7 +53,7 @@ public class JDBCUtil {
         ArrayList<T> list = new ArrayList<>();
         try {
 //            连接创建，选择数据库
-            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/ele?useUnicode=true&characterEncoding=utf8","root","1472580369");
+            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/ele?useUnicode=true&characterEncoding=utf8","root","111111");
 //            创建查询窗口
             pstmt= conn.prepareStatement(sql);
 //            循环obj进行赋值
@@ -93,7 +93,7 @@ public class JDBCUtil {
         T t =null;
         try {
 //            连接创建，选择数据库
-            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/ele?useUnicode=true&characterEncoding=utf8","root","1472580369");
+            conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/ele?useUnicode=true&characterEncoding=utf8","root","111111");
 //            创建查询窗口
             pstmt= conn.prepareStatement(sql);
 //            循环obj进行赋值

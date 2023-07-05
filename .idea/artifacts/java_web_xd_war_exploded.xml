@@ -7,6 +7,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="java_web_xd" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../mysql-connector-j-8.0.31/mysql-connector-j-8.0.31.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../mysql-connector-java-5.1.38.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../jstl-1.2.jar" />
+        </element>
       </element>
     </root>
   </artifact>
