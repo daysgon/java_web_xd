@@ -116,16 +116,12 @@
         <div class="rtcont fr">
             <div class="grzlbt ml40">修改资料</div>
 
-            <input type="text" class="input w50" value="${handle.name}" name="name" data-validate="required:请输入用户名" />
-
-
-            <div class="subgrzl ml40"><span>昵称</span><span>${user.username}</span></div>
-            <div class="subgrzl ml40"><span>手机号</span><span>${user.phone}</span></div>
-            <div class="subgrzl ml40"><span>邮箱</span><span>${user.email}</span></div>
-            <div class="subgrzl ml40"><span>密码</span><span>${user.password}</span></div>
-            <div class="subgrzl ml40"><span>收货地址</span><span>${user.address}</span></div>
-            <div class="xiugai ml40"><span><a href="/user/infoUpdate">修改</a></span></div>
-
+            <div class="biaotou ml40"><span>昵称</span></div><input type="text" class="xinxi ml40" value="${user.username}" name="username" data-validate="required:请输入昵称" />
+            <div class="biaotou ml40"><span>手机号</span></div><input type="text" class="xinxi ml40" value="${handle.phone}" name="phone" data-validate="required:请输入手机号" />
+            <div class="biaotou ml40"><span>邮箱</span></div><input type="text" class="xinxi ml40" value="${handle.email}" name="email" data-validate="required:请输入邮箱" />
+            <div class="biaotou ml40"><span>密码</span></div><input type="text" class="xinxi ml40" value="${handle.password}" name="password" data-validate="required:请输入密码" />
+            <div class="biaotou ml40"><span>地址</span></div><input type="text" class="xinxi ml40" value="${handle.address}" name="address" data-validate="required:请输入地址" />
+            <div class="xiugai ml40"><span><a href="/user/infoUpdate">确认修改</a></span></div>
 
 
         </div>

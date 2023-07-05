@@ -112,8 +112,8 @@ public class UserDao {
     }
 
     public int update(User user){
-        return JDBCUtil.executeUpdate("update user set username=?,password=?,phone=?,email=? where id=?",
-                user.getUsername(),user.getPassword(),user.getPhone(),user.getEmail(),user.getId());
+        return JDBCUtil.executeUpdate("update user set username=?,password=?,phone=?,email=? ,address=? where id=?",
+                user.getUsername(),user.getPassword(),user.getPhone(),user.getEmail(),user.getAddress(),user.getId());
     }
 
     public int delete(int id)

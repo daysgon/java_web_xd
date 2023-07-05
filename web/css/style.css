@@ -235,6 +235,12 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 .grzxbj .selfinfo .rtcont .subgrzl span a:hover{color:#ff6700; }
 .grzxbj .selfinfo .rtcont .xiugai{position:relative;float: left;left: 40% ;height: 45px;line-height: 45px;width: 100px;background: rgb(253,253,253);border:1px solid #aaa;margin-top: 10px;margin-bottom: 10px;border-radius: 3px;}
 .grzxbj .selfinfo .rtcont .xiugai{text-align:center;margin-top:22px ;width:100px;height: 45px;line-height: 45px;font-size: 17px;color:rgb(117,117,117);}
+
+.grzxbj .selfinfo .rtcont .biaotou{float: left;left: 10% ;height: 45px;line-height: 45px;width: 100px;border:0px solid #aaa;margin-top: 10px;margin-bottom: 10px;border-radius: 3px;}
+.grzxbj .selfinfo .rtcont .biaotou{text-align:left ;width:100px;height: 45px;line-height: 45px;font-size: 17px;color:rgb(117,117,117);}
+
+.grzxbj .selfinfo .rtcont .xinxi{float: left ;height: 45px;line-height: 45px;width: 700px;background: rgb(253,253,253);border:1px solid #aaa;margin-top: 10px;margin-bottom: 10px;border-radius: 3px;}
+.grzxbj .selfinfo .rtcont .xinxi{text-align:left ;left:5%;width:700px;height: 45px;line-height: 45px;font-size: 17px;color:rgb(117,117,117);}
 /*订单中心*/
 .grzxbj .selfinfo .rtcont .ddxq{width: 938px;height: 120px;line-height: 120px;font-size: 17px;color:rgb(117,117,117); 
 	border-bottom: 1px solid #ccc;padding-left: 40px;}
