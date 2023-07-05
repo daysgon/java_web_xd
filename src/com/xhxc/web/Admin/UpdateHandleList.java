@@ -25,7 +25,7 @@ public class UpdateHandleList extends HttpServlet {
         Handle oneById = dao.getOneById(id);
         System.out.println(oneById);
         req.setAttribute("handle",oneById);
-        req.getRequestDispatcher("/back/updatehandlelist.jsp").forward(req,resp);
+        req.getRequestDispatcher("/back/updateHandleList.jsp").forward(req,resp);
 
     }
 }

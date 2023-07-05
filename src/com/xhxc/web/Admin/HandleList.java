@@ -18,6 +18,6 @@ public class HandleList extends HttpServlet {
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ArrayList<Handle> all=dao.getAll();
         req.setAttribute("all",all);
-        req.getRequestDispatcher("/admin/handlelist.jsp").forward(req,resp);
+        req.getRequestDispatcher("/admin/handleList.jsp").forward(req,resp);
     }
 }

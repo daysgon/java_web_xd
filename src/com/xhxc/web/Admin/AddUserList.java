@@ -15,6 +15,6 @@ public class AddUserList extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/admin/adduserlist.jsp").forward(req,resp);
+        req.getRequestDispatcher("/admin/addUserList.jsp").forward(req,resp);
     }
 }
