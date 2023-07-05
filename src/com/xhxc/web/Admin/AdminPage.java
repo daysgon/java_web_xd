@@ -15,6 +15,6 @@ public class AdminPage extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/adminpage.jsp").forward(req,resp);
+        req.getRequestDispatcher("/adminPage.jsp").forward(req,resp);
     }
 }

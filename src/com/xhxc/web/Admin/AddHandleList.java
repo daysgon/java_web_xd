@@ -1,9 +1,7 @@
-//管理员端用户列表
-
 package com.xhxc.web.Admin;
 
-import com.xhxc.dao.UserDao;
-import com.xhxc.pojo.User;
+import com.xhxc.dao.HandleDao;
+import com.xhxc.pojo.Handle;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,13 +11,14 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 
-@WebServlet("/userlist")
-public class UserList extends HttpServlet {
-private UserDao dao=new UserDao();
+@WebServlet("/admin/addhandle")
+public class AddHandleList extends HttpServlet {
+    private HandleDao dao=new HandleDao();
+
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        ArrayList<User> allusers=dao.getAll();
-        req.setAttribute("allusers",allusers);
-        req.getRequestDispatcher("/admin/userList.jsp").forward(req,resp);
+        ArrayList<Handle> handlesByParentId =dao.getHandlesByParentId();
+        req.setAttribute("all",handlesByParentId);
+        req.getRequestDispatcher("/admin/addHandleList.jsp").forward(req,resp);
     }
 }

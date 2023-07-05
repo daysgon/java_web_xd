@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/updateuserlist")
+@WebServlet("/admin/updateuserlist")
 public class UpdateUserList extends HttpServlet {
     private UserDao dao=new UserDao();
 
@@ -24,6 +24,6 @@ public class UpdateUserList extends HttpServlet {
         int id = Integer.parseInt(req.getParameter("id"));
         User oneById=dao.getOneById(id);
         req.setAttribute("user",oneById);
-        req.getRequestDispatcher("/updateuserlist.jsp").forward(req,resp);
+        req.getRequestDispatcher("/admin/updateUserList.jsp").forward(req,resp);
     }
 }
