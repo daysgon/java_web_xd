@@ -1,7 +1,7 @@
 //点击添加用户后跳转添加界面
 
 
-package com.xhxc.web.Admin;
+package com.xhxc.web.Admin.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/adduserlist")
+@WebServlet("/admin/adduserlist")
 public class AddUserList extends HttpServlet {
 
     @Override

@@ -1,5 +1,5 @@
 //执行更新用户信息
-package com.xhxc.web.Admin;
+package com.xhxc.web.Admin.User;
 
 import com.xhxc.dao.UserDao;
 import com.xhxc.pojo.User;
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/doupdateuserlist")
+@WebServlet("/admin/doupdateuserlist")
 public class DoUpdateUserList extends HttpServlet {
 private UserDao dao=new UserDao();
 
