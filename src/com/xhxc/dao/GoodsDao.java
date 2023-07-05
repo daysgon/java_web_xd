@@ -57,7 +57,7 @@ public class GoodsDao {
             }
         });
     }
-*/
+
    public int add(Goods p) {
        return JDBCUtil.executeUpdate("insert into goods(goodsname,price,store,img,hid,uid,active,message) values(?,?,?,?,?,?,?,?)",
                p.getGoodsname(),p.getPrice(),p.getStore(),p.getImg(),p.getHid(),p.getUid(),p.getActive(),p.getMessage());
@@ -66,7 +66,7 @@ public class GoodsDao {
 
 
    }
-/*
+
     //    根据id查一个
     public Goods getOneById(int goodsId){
         return JDBCUtil.QueryOne("select * from goods where goods_id=?", new RowMap<Goods>() {
