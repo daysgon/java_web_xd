@@ -67,7 +67,7 @@
                 <ul>
                     <li><a href="/admin/userlist" style="color:#ff6700;font-weight:bold;">用户管理</a></li>
                     <li><a href="/admin/handlelist">品类管理</a></li>
-                    <li><a href="">商品管理</a></li>
+                    <li><a href="/admin/goodslist">商品管理</a></li>
 
                 </ul>
             </div>
@@ -110,7 +110,7 @@
                             <td>${u.active}</td>
                             <td>${u.role}</td>
                             <td>${u.createTime}</td>
-                            <td><div class="button-group"> <a class="button border-main" href="/back/update?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/back/delete?id=${u.id}"><span class="icon-trash-o"></span> 删除</a></td></td>
+                            <td><div class="button-group"> <a class="button border-main" href="/admin/updateuserlist?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/admin/deleteuserlist?id=${u.id}"><span class="icon-trash-o"></span> 删除</a></td></td>
                         </tr>
                         </c:forEach>
                 </table>
@@ -119,7 +119,7 @@
     </div>
         <div class="clear"></div>
     </div>
-</div>
+
 
 
 <!-- self_info -->

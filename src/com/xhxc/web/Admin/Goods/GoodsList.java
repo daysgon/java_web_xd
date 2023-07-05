@@ -11,14 +11,14 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 
-@WebServlet("/admin/goodsList")
+@WebServlet("/admin/goodslist")
 public class GoodsList extends HttpServlet {
     private GoodsDao dao=new GoodsDao();
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        ArrayList<Goods> all=dao.getAll();
-        req.setAttribute("all",all);
-        req.getRequestDispatcher("/admin/goodsList").forward(req,resp);
+        ArrayList<Goods> allgoods=dao.getAll();
+        req.setAttribute("allgoods",allgoods);
+        req.getRequestDispatcher("/admin/goodsList.jsp").forward(req,resp);
     }
 }
