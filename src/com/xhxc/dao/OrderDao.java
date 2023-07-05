@@ -30,15 +30,15 @@ public class OrderDao {
                     int amount = rs.getInt("amount");
                     Date create_time = rs.getDate("create_time");
                     String address=rs.getString("address");
-                    order.setOrder_id(order_id);
-                    order.setPurchaser_id(purchaser_id);
-                    order.setGood_id(good_id);
-                    order.setGood_name(good_name);
-                    order.setSeller_id(seller_id);
-                    order.setSeller_name(seller_name);
+                    order.setOrderId(order_id);
+                    order.setPurchaserId(purchaser_id);
+                    order.setGoodId(good_id);
+                    order.setGoodName(good_name);
+                    order.setSellerId(seller_id);
+                    order.setSellerName(seller_name);
                     order.setPrice(price);
                     order.setAmount(amount);
-                    order.setCreate_time(create_time);
+                    order.setCreateTime(create_time);
                     order.setAddress(address);
                 } catch (SQLException e) {
                     e.printStackTrace();
@@ -50,18 +50,18 @@ public class OrderDao {
 
     public int add(Order order){
         return JDBCUtil.executeUpdate("insert into orders(order_id,purchaser_id,good_id,good_name,seller_id,seller_name,price,amount,create_time,address) values(?,?,?,?,?,?,?,?,now(),?)"
-                ,order.getOrder_id(),order.getPurchaser_id(),order.getGood_id(),order.getGood_name(),order.getSeller_id(),order.getSeller_name(),order.getSeller_name(),order.getPrice(),order.getPrice(),order.getAmount(),order.getAddress());
+                ,order.getOrderId(),order.getPurchaserId(),order.getGoodId(),order.getGoodName(),order.getSellerId(),order.getSellerName(),order.getSellerName(),order.getPrice(),order.getPrice(),order.getAmount(),order.getAddress());
     }
 
 
     public int update(Order order){
         return JDBCUtil.executeUpdate("update orders set amount=?,address=?,where id=?",
-               order.getAmount(),order.getAddress(),order.getOrder_id());
+               order.getAmount(),order.getAddress(),order.getOrderId());
     }
     //删除订单
-    public int delete(Order order){
+    public int delete(int id){
         return JDBCUtil.executeUpdate("delete from orders where id=?",
-                order.getOrder_id());
+                id);
     }
 
 }

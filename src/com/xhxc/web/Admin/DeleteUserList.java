@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("deleteuserlist")
+@WebServlet("/deleteuserlist")
 public class DeleteUserList extends HttpServlet {
 private UserDao dao=new UserDao();
     @Override

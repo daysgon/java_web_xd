@@ -3,87 +3,63 @@ package com.xhxc.pojo;
 import java.util.Date;
 
 public class Order {
-    private int order_id;
-    private int purchaser_id;
-    private int good_id;
-    private String good_name;
-    private int seller_id;
-    private String seller_name;
+    private int orderId;
+    private int purchaserId;
+    private int goodId;
+    private String goodName;
+    private int sellerId;
+    private String sellerName;
     private double price;
     private int amount;
-    private Date create_time;
+    private Date createTime;
     private String address;
 
-    public int getAmount() {
-        return amount;
+    public int getOrderId() {
+        return orderId;
     }
 
-    public void setAmount(int amount) {
-        this.amount = amount;
+    public void setOrderId(int orderId) {
+        this.orderId = orderId;
     }
 
-    public Date getCreate_time() {
-        return create_time;
+    public int getPurchaserId() {
+        return purchaserId;
     }
 
-    public void setCreate_time(Date create_time) {
-        this.create_time = create_time;
+    public void setPurchaserId(int purchaserId) {
+        this.purchaserId = purchaserId;
     }
 
-    public String getAddress() {
-        return address;
+    public int getGoodId() {
+        return goodId;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setGoodId(int goodId) {
+        this.goodId = goodId;
     }
 
-    public int getOrder_id() {
-        return order_id;
+    public String getGoodName() {
+        return goodName;
     }
 
-    public void setOrder_id(int order_id) {
-        this.order_id = order_id;
+    public void setGoodName(String goodName) {
+        this.goodName = goodName;
     }
 
-    public int getPurchaser_id() {
-        return purchaser_id;
+    public int getSellerId() {
+        return sellerId;
     }
 
-    public void setPurchaser_id(int purchaser_id) {
-        this.purchaser_id = purchaser_id;
+    public void setSellerId(int sellerId) {
+        this.sellerId = sellerId;
     }
 
-    public int getGood_id() {
-        return good_id;
+    public String getSellerName() {
+        return sellerName;
     }
 
-    public void setGood_id(int good_id) {
-        this.good_id = good_id;
-    }
-
-    public String getGood_name() {
-        return good_name;
-    }
-
-    public void setGood_name(String good_name) {
-        this.good_name = good_name;
-    }
-
-    public int getSeller_id() {
-        return seller_id;
-    }
-
-    public void setSeller_id(int seller_id) {
-        this.seller_id = seller_id;
-    }
-
-    public String getSeller_name() {
-        return seller_name;
-    }
-
-    public void setSeller_name(String seller_name) {
-        this.seller_name = seller_name;
+    public void setSellerName(String sellerName) {
+        this.sellerName = sellerName;
     }
 
     public double getPrice() {
@@ -94,16 +70,43 @@ public class Order {
         this.price = price;
     }
 
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
     @Override
     public String toString() {
         return "Order{" +
-                "order_id=" + order_id +
-                ", purchaser_id=" + purchaser_id +
-                ", good_id=" + good_id +
-                ", good_name='" + good_name + '\'' +
-                ", seller_id=" + seller_id +
-                ", seller_name='" + seller_name + '\'' +
+                "orderId=" + orderId +
+                ", purchaserId=" + purchaserId +
+                ", goodId=" + goodId +
+                ", goodName='" + goodName + '\'' +
+                ", sellerId=" + sellerId +
+                ", sellerName='" + sellerName + '\'' +
                 ", price=" + price +
+                ", amount=" + amount +
+                ", createTime=" + createTime +
+                ", address='" + address + '\'' +
                 '}';
     }
 }
