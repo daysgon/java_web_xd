@@ -217,7 +217,7 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 .grzxbj .selfinfo{width: 1226px;}
 .grzxbj .selfinfo .lfnav{width: 234px;height: 500px;background: #fff;}
 .grzxbj .selfinfo .lfnav .ddzx{width: 234px;height: 40px;line-height: 40px;font-size: 19px; margin:30px 20px 10px 40px;color:rgb(51,51,51);}
-.grzxbj .selfinfo .lfnav .subddzx ul li{display: block;width: 194px;height: 40px;line-height: 40px;padding-left: 40px;}
+.grzxbj .selfinfo .lfnav .subddzx ul li{display: block;width: 194px;height: 40px;line-height: 40px;}
 .grzxbj .selfinfo .lfnav .subddzx ul li a{color:rgb(117,117,117);}
 .grzxbj .selfinfo .lfnav .subddzx ul li a:hover{color:rgb(51,51,51);}
 .grzxbj .selfinfo .rtcont{width: 978px;height: 500px;background: #fff;}
