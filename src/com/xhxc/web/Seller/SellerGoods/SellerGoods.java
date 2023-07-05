@@ -20,7 +20,7 @@ public class SellerGoods extends HttpServlet {
 
         ArrayList<Goods> all = dao.getAll();
         req.setAttribute("all",all);
-        req.getRequestDispatcher("/sell/handle.jsp").forward(req,resp);
+        req.getRequestDispatcher("/sell/goods.jsp").forward(req,resp);
 
     }
 }
