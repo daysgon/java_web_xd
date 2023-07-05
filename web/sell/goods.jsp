@@ -91,16 +91,16 @@
     <div class="selfinfo center">
         <div class="lfnav fl">
             <div class="ddzx">管理中心</div>
-            <div class="subddzx">
+            <div class="subddzx" style="font-size: 16px;">
                 <ul>
-                    <li><a href="/sell/handle" style="color:#ff6700;font-weight:bold;">品类管理</a></li>
-                    <li><a href="/sell/goods">商品管理</a></li>
+                    <li><a href="/sell/handle" >品类管理</a></li>
+                    <li><a href="/sell/goods" style="color:#ff6700;font-weight:bold;">商品管理</a></li>
                     <li><a href="">团购订单</a></li>
                     <li><a href="">评价晒单</a></li>
                 </ul>
             </div>
             <div class="ddzx">个人中心</div>
-            <div class="subddzx">
+            <div class="subddzx" style="font-size: 16px;">
                 <ul>
                     <li><a href="/sell/info">我的个人中心</a></li>
                     <li><a href="">消息通知</a></li>
@@ -167,7 +167,7 @@
                         <th width="310">操作</th>
                     </tr>
                     <volist name="list" id="vo">
-                        <c:forEach items="${all}" var="u">
+                        <c:forEach items="${goods}" var="u">
                         <tr>
                             <td style="text-align:left; padding-left:20px;">${u.id}</td>
                             <td>${u.goodsname}</td>

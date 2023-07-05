@@ -45,6 +45,7 @@ public class GoodsDao {
    }
 
     //    根据id查一个
+
     public Goods getById(int id){
         return JDBCUtil.QueryOne("select * from goods where id=?", new RowMap<Goods>() {
             @Override
@@ -66,6 +67,29 @@ public class GoodsDao {
                 return goods;
             }
         }, id);
+    }
+
+    public ArrayList<Goods> getUid(int uid){
+        return JDBCUtil.executeQuery("select * from goods where uid = ?", new RowMap<Goods>() {
+            @Override
+            public Goods rowMapping(ResultSet rs) {
+                Goods goods = new Goods();
+                try {
+                    goods.setId(rs.getInt("id"));
+                    goods.setPrice(rs.getDouble("price"));
+                    goods.setStore(rs.getInt("store"));
+                    goods.setActive(rs.getInt("active"));
+                    goods.setHid(rs.getInt("hid"));
+                    goods.setMessage(rs.getString("message"));
+                    goods.setGoodsname(rs.getString("goodsname"));
+                    goods.setUid(rs.getInt("uid"));
+                    goods.setImg(rs.getString("img"));
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                return goods;
+            }
+        },uid);
     }
 
     public int update(Goods goods){

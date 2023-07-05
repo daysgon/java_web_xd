@@ -97,8 +97,8 @@
 <div class="grzxbj">
     <div class="selfinfo center">
         <div class="lfnav fl">
-            <div class="ddzx">订单中心</div>
-            <div class="subddzx">
+            <div class="ddzx">管理中心</div>
+            <div class="subddzx" style="font-size: 16px;">
                 <ul>
                     <li><a href="/sell/handle">品类管理</a></li>
                     <li><a href="/sell/goods">商品管理</a></li>
@@ -107,7 +107,7 @@
                 </ul>
             </div>
             <div class="ddzx">个人中心</div>
-            <div class="subddzx">
+            <div class="subddzx" style="font-size: 16px;">
                 <ul>
                     <li><a href="/sellinfo" style="color:#ff6700;font-weight:bold;">我的个人中心</a></li>
                     <li><a href="">消息通知</a></li>
