@@ -18,7 +18,7 @@
 <!-- login -->
 <div class="top center">
     <div class="logo center">
-        <a href="./index.html" target="_blank"><img src="./image/mistore_logo.png" alt=""></a>
+        <a href="./index.html" target="_blank"><img src="./image/logo.jpg" width="200"  height="200" alt=""></a>
     </div>
 </div>
 <form  method="post" action="./login.php" class="form center">
