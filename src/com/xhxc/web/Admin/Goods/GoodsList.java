@@ -1,9 +1,7 @@
-//管理员端用户列表
+package com.xhxc.web.Admin.Goods;
 
-package com.xhxc.web.Admin;
-
-import com.xhxc.dao.UserDao;
-import com.xhxc.pojo.User;
+import com.xhxc.dao.GoodsDao;
+import com.xhxc.pojo.Goods;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,13 +11,14 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 
-@WebServlet("/userlist")
-public class UserList extends HttpServlet {
-private UserDao dao=new UserDao();
+@WebServlet("/admin/goodsList")
+public class GoodsList extends HttpServlet {
+    private GoodsDao dao=new GoodsDao();
+
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        ArrayList<User> allusers=dao.getAll();
-        req.setAttribute("allusers",allusers);
-        req.getRequestDispatcher("/admin/userList.jsp").forward(req,resp);
+        ArrayList<Goods> all=dao.getAll();
+        req.setAttribute("all",all);
+        req.getRequestDispatcher("/admin/goodsList").forward(req,resp);
     }
 }

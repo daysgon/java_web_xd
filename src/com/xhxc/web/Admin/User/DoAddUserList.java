@@ -1,5 +1,5 @@
 //执行添加用户信息到数据库
-package com.xhxc.web.Admin;
+package com.xhxc.web.Admin.User;
 
 import com.xhxc.dao.UserDao;
 import com.xhxc.pojo.User;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/doadduserlist")
+@WebServlet("/admin/doadduserlist")
 public class DoAddUserList extends HttpServlet {
     UserDao dao=new UserDao();
     @Override

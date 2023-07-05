@@ -1,4 +1,4 @@
-package com.xhxc.web.Admin;
+package com.xhxc.web.Admin.Handle;
 
 import com.xhxc.dao.HandleDao;
 import com.xhxc.pojo.Handle;
@@ -11,13 +11,14 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 
-@WebServlet("/admin/handle")
-public class HandleList extends HttpServlet {
+@WebServlet("/admin/addhandlelist")
+public class AddHandleList extends HttpServlet {
     private HandleDao dao=new HandleDao();
+
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        ArrayList<Handle> all=dao.getAll();
-        req.setAttribute("all",all);
-        req.getRequestDispatcher("/admin/handleList.jsp").forward(req,resp);
+        ArrayList<Handle> handlesByParentId =dao.getHandlesByParentId();
+        req.setAttribute("all",handlesByParentId);
+        req.getRequestDispatcher("/admin/addHandleList.jsp").forward(req,resp);
     }
 }

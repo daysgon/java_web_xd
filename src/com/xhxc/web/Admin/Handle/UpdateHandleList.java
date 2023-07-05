@@ -1,4 +1,4 @@
-package com.xhxc.web.Admin;
+package com.xhxc.web.Admin.Handle;
 
 import com.xhxc.dao.HandleDao;
 import com.xhxc.pojo.Handle;
