@@ -37,6 +37,9 @@ public class UserDoInfoUpdate extends HttpServlet {
         if(a>0){
             session.setAttribute("user",user);
             req.getRequestDispatcher("/user/usermain").forward(req,resp);
+        }else{
+            req.setAttribute("msg","失败");
+            req.getRequestDispatcher("../fail.jsp").forward(req,resp);
         }
 
 

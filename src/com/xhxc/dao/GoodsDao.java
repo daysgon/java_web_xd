@@ -70,7 +70,7 @@ public class GoodsDao {
 
     public int update(Goods goods){
         return JDBCUtil.executeUpdate("update goods set goodsname=?,message=?,img=?,store=?,price=?,hid=?,uid=?,active=? where id=?",
-                goods.getGoodsname(),goods.getMessage(),goods.getImg(),goods.getStore(),goods.getPrice(),goods.getHid(),goods.getUid(),goods.getActive());
+                goods.getGoodsname(),goods.getMessage(),goods.getImg(),goods.getStore(),goods.getPrice(),goods.getHid(),goods.getUid(),goods.getActive(),goods.getId());
     }
     public int del(int id){
         return JDBCUtil.executeUpdate("update goods set active=0 where id=?",id);

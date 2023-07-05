@@ -91,7 +91,7 @@
     <div class="selfinfo center">
         <div class="lfnav fl">
             <div class="ddzx">管理中心</div>
-            <div class="subddzx" style="font-size: 16px;">
+            <div class="subddzx">
                 <ul>
                     <li><a href="/sell/handle" style="color:#ff6700;font-weight:bold;">品类管理</a></li>
                     <li><a href="/sell/goods">商品管理</a></li>
@@ -100,7 +100,7 @@
                 </ul>
             </div>
             <div class="ddzx">个人中心</div>
-            <div class="subddzx" style="font-size: 16px;">
+            <div class="subddzx">
                 <ul>
                     <li><a href="/sell/info">我的个人中心</a></li>
                     <li><a href="">消息通知</a></li>
@@ -114,7 +114,7 @@
                 <div class="panel-head"><strong class="icon-reorder"> 品类列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
                 <div class="padding border-bottom">
                     <ul class="search" style="padding-left:10px;">
-                        <li> <a class="button border-main icon-plus-square-o" href="/sell/handleAdd"> 添加内容</a> </li>
+                        <li> <a class="button border-main icon-plus-square-o" href="/sell/goodsAdd"> 添加内容</a> </li>
                         <li>搜索：</li>
                         <li>首页
                             <select name="s_ishome" class="input" onchange="changesearch()" style="width:60px; line-height:17px; display:inline-block">
@@ -156,17 +156,34 @@
                 <table class="table table-hover text-center">
                     <tr>
                         <th width="100" style="text-align:left; padding-left:20px;">ID</th>
-                        <th>品类名</th>
-                        <th>parent_id</th>
+                        <th>商品名称</th>
+                        <th>图片</th>
+                        <th>库存</th>
+                        <th>价格</th>
+                        <th>提示信息</th>
                         <th>是否有效</th>
+                        <th>所属品类</th>
+                        <th>所属用户</th>
+                        <th width="310">操作</th>
                     </tr>
                     <volist name="list" id="vo">
                         <c:forEach items="${all}" var="u">
                         <tr>
                             <td style="text-align:left; padding-left:20px;">${u.id}</td>
-                            <td>${u.name}</td>
-                            <td>${u.parentId}</td>
+                            <td>${u.goodsname}</td>
+                            <td>
+                                <img src="${u.img}"
+                                     width="100" height="60"
+                                />
+
+                            </td>
+                            <td>${u.store}</td>
+                            <td>${u.price}</td>
+                            <td>${u.message}</td>
                             <td>${u.active}</td>
+                            <td>${u.hid}</td>
+                            <td>${u.uid}</td>
+                            <td><div class="button-group"> <a class="button border-main" href="/sell/goodsUpdate?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/sell/goodsDel?id=${u.id}"><span class="icon-trash-o"></span> 删除</a> </div></td>
                         </tr>
                         </c:forEach>
 

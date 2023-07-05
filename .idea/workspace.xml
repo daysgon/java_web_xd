@@ -7,24 +7,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a244e524-2afb-4c1f-ab22-357076d27838" name="Default Changelist" comment="增加了pojo.Handle.java和dao.HandleDao.java">
-      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerGoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerHandle/SellerDoHandleAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerHandle/SellerHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerHandle/SellerHandleAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/sell/handle.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/sell/handleAdd.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/sell/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/sell/sellerList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/User/UserDoOrderUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/User/UserOrderDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/User/UserOrderUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/orderUpdateWeb.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_web_xd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_web_xd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/dao/GoodsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/dao/OrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/pojo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/pojo/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/util/UserUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/util/UserUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/Seller/SellerGoods/SellerGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/Seller/SellerGoods/SellerGoods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/Seller/SellerList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/AddOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/DeleteOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/OrderList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/UserDoInfoUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/UserDoInfoUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/handle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/handle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/handleAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/handleAdd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/user/usermain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/user/usermain.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/dao/GoodsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/dao/OrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/pojo/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/pojo/Goods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/util/UserUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/util/UserUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/Seller/SellerGoods/SellerGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/Seller/SellerGoods/SellerGoods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/Seller/SellerList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/AddOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/DeleteOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/OrderList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/UserDoInfoUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/UserDoInfoUpdate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xhxc/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/dao/GoodsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/dao/OrderDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xhxc/pojo/Goods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/pojo/Goods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/HandleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/HandleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/handleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/handleList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/userList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/User/AddOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/User/DeleteOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/User/OrderList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/User/UserDoInfoUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/User/UserDoInfoUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/fail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/usermain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/usermain.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,157 +55,113 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8308958">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/admin/userList.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-19">
-                  <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#2;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#3;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#4;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#5;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#6;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#7;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#td#0;n#tr#0;n#volist#0;n#table#0;n#div#0;n#form#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web/admin/handleList.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="105" selection-start-line="105" selection-end-line="105" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#2;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#3;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#th#4;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#td#0;n#tr#0;n#volist#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/css/pintuer.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="284">
-                  <caret line="735" column="22" selection-start-line="735" selection-start-column="22" selection-end-line="735" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/login.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="65" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/image/logo.jpg">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/HandleList.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="379">
-                  <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/HandleDao.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="218">
-                  <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/xhxc/pojo/Handle.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="100">
-                  <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/css/admin.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="100">
-                  <caret line="40" selection-start-line="40" selection-end-line="40" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/LoginWeb.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserMainWeb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserDoOrderUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="36" column="70" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="36" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UpDateOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserInfoUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserDoInfoUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/fail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserOrderDelete.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserOrderUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserSelfInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/OrderDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-187">
+              <caret line="56" column="88" selection-start-line="56" selection-start-column="88" selection-end-line="56" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -210,10 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/xhxc/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/com/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/xhxc/com/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/util/RowMap.java" />
         <option value="$PROJECT_DIR$/src/com/xhxc/util/UserUtil.java" />
         <option value="$PROJECT_DIR$/src/com/xhxc/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/com/xhxc/pojo/Order.java" />
@@ -230,7 +203,6 @@
         <option value="$PROJECT_DIR$/web/admin/updateuserlist.jsp" />
         <option value="$PROJECT_DIR$/web/admin/updatehandlelist.jsp" />
         <option value="$PROJECT_DIR$/web/admin/addhandlelist.jsp" />
-        <option value="$PROJECT_DIR$/web/fail.jsp" />
         <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/DoAddHandleList.java" />
         <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/DoUpdateHandleList.java" />
         <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/AddHandleList.java" />
@@ -255,6 +227,17 @@
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/HandleList.java" />
         <option value="$PROJECT_DIR$/web/admin/userList.jsp" />
+        <option value="$PROJECT_DIR$/web/user/usermain.jsp" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/User/UserOrderUpdate.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/User/DeleteOrder.java" />
+        <option value="$PROJECT_DIR$/web/user/orderUpdateWeb.jsp" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/pojo/Goods.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/User/UserDoOrderUpdate.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/User/UserDoInfoUpdate.java" />
+        <option value="$PROJECT_DIR$/web/fail.jsp" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/User/UserOrderDelete.java" />
       </list>
     </option>
   </component>
@@ -266,20 +249,16 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="1270" />
+    <option name="width" value="1295" />
+    <option name="height" value="1400" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="NBKnowledgePane" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,64 +269,36 @@
             <path>
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="dataSources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="inspectionProfiles" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xhxc" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Goods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
@@ -356,29 +307,26 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xhxc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="Handle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xhxc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="Seller" type="462c0819:PsiDirectoryNode" />
-              <item name="SellerHandle" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
@@ -395,12 +343,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="NBKnowledgePane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688535586563" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688563924797" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jstl-1.2.jar!/" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
@@ -521,6 +471,7 @@
       <workItem from="1688433537687" duration="6691000" />
       <workItem from="1688454854257" duration="2865000" />
       <workItem from="1688519683667" duration="8719000" />
+      <workItem from="1688555822642" duration="5999000" />
     </task>
     <task id="LOCAL-00001" summary="修改了pojo.User.java">
       <created>1688309593866</created>
@@ -582,12 +533,49 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30343000" />
+    <option name="totallyTimeSpent" value="36450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26646706" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49103448" weight="0.32776934" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.3943662" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.44428152" />
+      <window_info anchor="bottom" id="Sequence Diagram" order="10" sideWeight="0.49865952" weight="0.32991204" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49932975" weight="0.32991204" />
+      <window_info anchor="bottom" id="Database Changes" order="12" sideWeight="0.4966488" weight="0.32991204" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49463806" weight="0.3525836" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32991204" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32897383" />
+      <window_info anchor="bottom" id="Application Servers" order="16" weight="0.32991204" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18364611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -598,12 +586,12 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49103448" weight="0.32776934" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.39442816" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.39442816" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49865952" weight="0.32991204" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" weight="0.34164223" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.44428152" />
       <window_info anchor="bottom" id="Sequence Diagram" order="10" sideWeight="0.49865952" weight="0.32991204" />
@@ -623,10 +611,26 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改了pojo.User.java" />
@@ -635,229 +639,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改了seller界面" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/pojo/Seller.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/util/RowMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/LoginWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#1398#1399#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
-            <element signature="e#1497#1498#0" expanded="true" />
-            <element signature="e#1534#1535#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerHandle/SellerHandleAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.xhxc.dao.HandleDao">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.xhxc.dao.HandleDao</OriginalElement>
-          <nodes>
-            <node x="" y="">com.xhxc.dao.HandleDao</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="56.0" y="15.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.xhxc.web.Admin.DoAddHandleList">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.xhxc.web.Admin.DoAddHandleList</OriginalElement>
-          <nodes>
-            <node x="2.5" y="160.0">javax.servlet.annotation.WebServlet</node>
-            <node x="133.0" y="0.0">javax.servlet.ServletConfig</node>
-            <node x="138.5" y="160.0">javax.servlet.http.HttpServlet</node>
-            <node x="52.999999999999986" y="240.0">com.xhxc.web.Admin.DoAddHandleList</node>
-            <node x="130.0" y="80.0">javax.servlet.GenericServlet</node>
-            <node x="280.0" y="0.0">javax.servlet.Servlet</node>
-            <node x="0.0" y="0.0">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="javax.servlet.GenericServlet" target="java.io.Serializable">
-              <point x="-44.33333333333334" y="-15.0" />
-              <point x="152.16666666666663" y="55.0" />
-              <point x="56.5" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="javax.servlet.http.HttpServlet" target="javax.servlet.GenericServlet">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.xhxc.web.Admin.DoAddHandleList" target="javax.servlet.annotation.WebServlet">
-              <point x="-37.75" y="-15.0" />
-              <point x="90.74999999999999" y="215.0" />
-              <point x="60.5" y="215.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="javax.servlet.GenericServlet" target="javax.servlet.ServletConfig">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="javax.servlet.GenericServlet" target="javax.servlet.Servlet">
-              <point x="44.33333333333334" y="-15.0" />
-              <point x="240.83333333333331" y="55.0" />
-              <point x="324.0" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="com.xhxc.web.Admin.DoAddHandleList" target="javax.servlet.http.HttpServlet">
-              <point x="37.75" y="-15.0" />
-              <point x="166.25" y="215.0" />
-              <point x="196.5" y="215.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-165.0" y="60.0" />
-          <SelectedNodes>
-            <node>com.xhxc.web.Admin.DoAddHandleList</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/updateUserList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/updateHandleList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/addHandleList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/模板/模板/cpts_1293_byy/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="47" column="7" selection-start-line="1" selection-end-line="47" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/AddOrder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/GoodsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/pojo/Goods.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/addUserList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/AdminPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/Goods/DeleteGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/Goods/GoodsList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/goodsList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/logo_top.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/mistore_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/image/logo_foot.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -874,13 +655,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/cpts_1293_byy/dingdanzhongxin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1104">
-          <caret selection-end-line="149" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/cpts_1293_byy/dingdanzhongxin.html" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -969,13 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/fail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1095,6 +863,179 @@
             <element signature="n#style#0;n#th#4;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#tr#0;n#volist#0;n#table#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/self_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="65" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/orderList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="119" selection-start-line="119" selection-end-line="122" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="115" column="111" selection-start-line="115" selection-start-column="111" selection-end-line="115" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/usermain.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="93" column="112" lean-forward="true" selection-start-line="93" selection-start-column="95" selection-end-line="93" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/infoUpdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="81" lean-forward="true" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/orderUpdateWeb.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="71" column="72" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="56" column="88" selection-start-line="56" selection-start-column="88" selection-end-line="56" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/OrderList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/DeleteOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/AddOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UpDateOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserDoInfoUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/fail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserInfoUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserMainWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserDoOrderUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="36" column="70" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="36" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserOrderDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserOrderUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserSelfInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>

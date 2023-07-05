@@ -87,7 +87,7 @@ public class Goods {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "Goods{" +
                 "id=" + id +
                 ", goodsname='" + goodsname + '\'' +
                 ", message='" + message + '\'' +

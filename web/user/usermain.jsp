@@ -91,7 +91,7 @@
                             <td>${u.amount}</td>
                             <td>${u.createTime}</td>
                             <td>${u.address}</td>
-                            <td><div class="button-group"> <a class="button border-main" href="/admin/updateuserlist?id=${u.orderId}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/admin/deleteuserlist?id=${u.orderId}"><span class="icon-trash-o"></span> 删除</a></td></td>
+                            <td><div class="button-group"> <a class="button border-main" href="/user/orderUpdate?id=${u.orderId}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/user/orderDelete?id=${u.orderId}"><span class="icon-trash-o"></span> 删除</a></td></td>
                         </tr>
                         </c:forEach>
                 </table>

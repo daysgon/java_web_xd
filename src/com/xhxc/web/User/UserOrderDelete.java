@@ -9,24 +9,21 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/user/deleteorder")
-public class DeleteOrder extends HttpServlet {
-    private OrderDao dao=new OrderDao();
+@WebServlet("/user/orderDelete")
+public class UserOrderDelete extends HttpServlet {
+    OrderDao dao=new OrderDao();
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int good_id = Integer.parseInt(req.getParameter("good_id"));
-
-        int delete=dao.delete(good_id);
-        if (delete>0){
-            resp.sendRedirect("/user/orderlist");
+//        super.service(req, resp);
+        int orderId=Integer.parseInt(req.getParameter("id"));
+        int a=dao.deleteById(orderId);
+        if(a>0){
+            resp.sendRedirect("/user/usermain");
         }else{
-            req.setAttribute("msg","删除失败");
-            req.getRequestDispatcher("/fail.jsp").forward(req,resp);
+            req.setAttribute("msg","失败");
+            req.getRequestDispatcher("../fail.jsp").forward(req,resp);
         }
-
-
 
 
     }
 }
-
