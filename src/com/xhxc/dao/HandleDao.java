@@ -72,7 +72,23 @@ public class HandleDao {
 
     }
 
-
+    public ArrayList<Handle> getHandles() {
+        return JDBCUtil.executeQuery("select * from handle where parent_id != 0 and active=1", new RowMap<Handle>() {
+            @Override
+            public Handle rowMapping(ResultSet rs) {
+                Handle handle = new Handle();
+                try {
+                    handle.setId(rs.getInt("id"));
+                    handle.setName(rs.getString("name"));
+                    handle.setParentId(rs.getInt("parent_id"));
+                    handle.setActive(rs.getInt("active"));
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                return handle;
+            }
+        });
+    }
 
 
     public int add(Handle handle) {
