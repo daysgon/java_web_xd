@@ -24,6 +24,7 @@ public class UserDao {
                     int active = rs.getInt("active");
                     String phone = rs.getString("phone");
                     String email = rs.getString("email");
+                    String address = rs.getString("address");
                     int role = rs.getInt("role");
                     Date date = rs.getDate("create_time");
                     user.setId(id);
@@ -33,6 +34,7 @@ public class UserDao {
                     user.setPhone(phone);
                     user.setActive(active);
                     user.setEmail(email);
+                    user.setAddress(address);
                     user.setCreateTime(date);
                 } catch (SQLException e) {
                     e.printStackTrace();
@@ -57,6 +59,7 @@ public class UserDao {
                     String phone = rs.getString("phone");
                     String email = rs.getString("email");
                     int role = rs.getInt("role");
+                    String address = rs.getString("address");
                     Date date = rs.getDate("create_time");
                     user.setId(id);
                     user.setUsername(username);
@@ -65,6 +68,7 @@ public class UserDao {
                     user.setPhone(phone);
                     user.setActive(active);
                     user.setEmail(email);
+                    user.setAddress(address);
                     user.setCreateTime(date);
                 } catch (SQLException e) {
                     e.printStackTrace();
@@ -75,8 +79,8 @@ public class UserDao {
     }
 
     public int add(User user){
-        return JDBCUtil.executeUpdate("insert into user(username,password,phone,email,active,role,create_time) values(?,?,?,?,?,?,now())"
-                ,user.getUsername(),user.getPassword(),user.getPhone(),user.getEmail(),user.getActive(),user.getRole());
+        return JDBCUtil.executeUpdate("insert into user(username,password,phone,email,active,role,address,create_time) values(?,?,?,?,?,?,?,now())"
+                ,user.getUsername(),user.getPassword(),user.getPhone(),user.getEmail(),user.getActive(),user.getRole(),user.getAddress());
     }
 
     //    根据id查一个
@@ -93,6 +97,7 @@ public class UserDao {
                     String phone = rs.getString("phone");
                     String email = rs.getString("email");
                     int role = rs.getInt("role");
+                    String address = rs.getString("address");
                     Date date = rs.getDate("create_time");
                     user.setId(id);
                     user.setUsername(username);
@@ -101,6 +106,7 @@ public class UserDao {
                     user.setPhone(phone);
                     user.setActive(active);
                     user.setEmail(email);
+                    user.setAddress(address);
                     user.setCreateTime(date);
                 } catch (SQLException e) {
                     e.printStackTrace();
@@ -111,8 +117,8 @@ public class UserDao {
     }
 
     public int update(User user){
-        return JDBCUtil.executeUpdate("update user set username=?,password=?,phone=?,email=? where id=?",
-                user.getUsername(),user.getPassword(),user.getPhone(),user.getEmail(),user.getId());
+        return JDBCUtil.executeUpdate("update user set username=?,password=?,phone=?,email=?,address=? where id=?",
+                user.getUsername(),user.getPassword(),user.getPhone(),user.getEmail(),user.getId(),user.getAddress());
     }
 
     public int delete(int id)

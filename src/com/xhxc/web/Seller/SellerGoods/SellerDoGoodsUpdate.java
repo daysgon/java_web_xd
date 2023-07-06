@@ -54,7 +54,7 @@ public class SellerDoGoodsUpdate extends HttpServlet {
             resp.sendRedirect("/sell/goods");
         }else{
             req.setAttribute("msg","修改失败");
-            req.getRequestDispatcher("/fail.jsp").forward(req,resp);
+            req.getRequestDispatcher("/back/fail.jsp").forward(req,resp);
         }
     }
 }

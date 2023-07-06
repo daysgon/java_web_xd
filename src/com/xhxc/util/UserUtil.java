@@ -112,12 +112,16 @@ public class UserUtil {
                 String phone = rs.getString("phone");
                 String email = rs.getString("email");
                 int role = rs.getInt("role");
+                String address = rs.getString("address");
                 User user = new User();
                 user.setId(id);
                 user.setUsername(username);
                 user.setPassword(password);
+                user.setEmail(email);
                 user.setRole(role);
+                user.setActive(active);
                 user.setPhone(phone);
+                user.setAddress(address);
 //                数据库中，表中一条数据，就是一个用户的信息
 //                java中如何表示一个用户的信息   一个对象
 //                表===》java中的类  表中字段名和类中的属性名和数据类型保持一致--》实体类 pojo
