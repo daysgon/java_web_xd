@@ -16,7 +16,7 @@
     </div>
 </div>
 <form  method="post" action="/index/doLogin" class="form center">
-    <div class="login">
+    <div class="login"  >
         <div class="login_center">
             <div class="login_top">
                 <div class="left fl">会员登录</div>
