@@ -32,12 +32,12 @@ public class SellerDoGoodsUpdate extends HttpServlet {
 
         Part part = req.getPart("img");
         String fileName = part.getSubmittedFileName();
-        String path = "E:\\Git\\warehouse\\java_web_xd\\web\\image\\"+fileName;
+        String path = "E:\\Git\\warehouse\\java_web_xd\\web\\goodsimg\\"+fileName;
         InputStream inputStream = part.getInputStream();
         FileUtil.storeFile(inputStream,path);
 
 //        数据库存储的图片的访问路径
-        String dbPath = "http://localhost:8080/image/"+fileName;
+        String dbPath = "http://localhost:8080/goodsimg/"+fileName;
         Goods g = new Goods();
         g.setId(id);
         g.setUid(uid);

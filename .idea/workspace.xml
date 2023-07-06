@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a244e524-2afb-4c1f-ab22-357076d27838" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/sell/info.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xhxc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xhxc/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/xhxc/util/UserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/util/UserUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsAdd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsUpdate.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -73,11 +70,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2160">
-              <caret line="120" column="116" selection-start-line="120" selection-start-column="116" selection-end-line="120" selection-end-column="116" />
+            <state relative-caret-position="-100">
+              <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsAdd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -145,14 +160,14 @@
         <option value="$PROJECT_DIR$/src/com/xhxc/pojo/Goods.java" />
         <option value="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerGoodsDelete.java" />
         <option value="$PROJECT_DIR$/web/fail.jsp" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsAdd.java" />
         <option value="$PROJECT_DIR$/src/com/xhxc/dao/GoodsDao.java" />
         <option value="$PROJECT_DIR$/web/sell/goodsUpdate.jsp" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsUpdate.java" />
         <option value="$PROJECT_DIR$/web/sell/info.jsp" />
         <option value="$PROJECT_DIR$/src/com/xhxc/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/com/xhxc/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/com/xhxc/util/UserUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsAdd.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsUpdate.java" />
       </list>
     </option>
   </component>
@@ -307,7 +322,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688624358636" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688625704192" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
@@ -552,14 +567,22 @@
       <option name="project" value="LOCAL" />
       <updated>1688621993529</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="修改了SellerInfo">
+      <created>1688625338180</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1688625338180</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54824000" />
+    <option name="totallyTimeSpent" value="55187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18967828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -861,13 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/sell/goods.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -889,24 +905,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/sell/goodsAdd.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-960">
           <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsUpdate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1012,10 +1014,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="120" column="116" selection-start-line="120" selection-start-column="116" selection-end-line="120" selection-end-column="116" />
+        <state relative-caret-position="-100">
+          <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
         </state>
       </provider>
     </entry>
