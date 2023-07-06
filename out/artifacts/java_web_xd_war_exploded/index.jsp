@@ -169,25 +169,7 @@
 </div>
 
 
-<div class="sub_banner center">
-    <div class="sidebar fl">
-        <div class="fl"><a href=""><img src="./image/hjh_01.gif"></a></div>
-        <div class="fl"><a href=""><img src="./image/hjh_02.gif"></a></div>
-        <div class="fl"><a href=""><img src="./image/hjh_03.gif"></a></div>
-        <div class="fl"><a href=""><img src="./image/hjh_04.gif"></a></div>
-        <div class="fl"><a href=""><img src="./image/hjh_05.gif"></a></div>
-        <div class="fl"><a href=""><img src="./image/hjh_06.gif"></a></div>
-        <div class="clear"></div>
-    </div>
-    <div class="datu fl"><a href=""><img src="./image/hongmi4x.png" alt=""></a></div>
-    <div class="datu fl"><a href=""><img src="./image/xiaomi5.jpg" alt=""></a></div>
-    <div class="datu fr"><a href=""><img src="./image/pinghengche.jpg" alt=""></a></div>
-    <div class="clear"></div>
 
-
-</div>
-<!-- end banner -->
-<div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
 
 <!-- start danpin -->
 
