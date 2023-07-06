@@ -1,20 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="GROUP_BY_SEVERITY" value="true" />
-  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="java_web_xd:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a244e524-2afb-4c1f-ab22-357076d27838" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/index/image/loginBg.jpg" afterDir="false" />
+    <list default="true" id="411188a9-1ed1-4d32-a455-f737de4f2aea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerGoodsDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerGoodsUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerInfo/SellerDoInfoUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerInfo/SellerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerInfo/SellerInfoUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/User/UserDoOrderUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/User/UserOrderDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/xhxc/web/User/UserOrderUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/admin2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/login2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/pintuer2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/orderfail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sell/goodsAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sell/goodsUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sell/infoUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/orderUpdateWeb.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/dao/GoodsDao$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/dao/GoodsDao$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/dao/GoodsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/dao/HandleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/dao/HandleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/dao/OrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/util/UserUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/util/UserUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/Seller/SellerGoods/SellerGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/Seller/SellerGoods/SellerGoods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/Seller/SellerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/UserDoInfoUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/UserDoInfoUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/UserInfoUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/UserInfoUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/UserMainWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/UserMainWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/UserSelfInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/WEB-INF/classes/com/xhxc/web/User/UserSelfInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/addHandleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/addHandleList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/addUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/addUserList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/goodsList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/goodsList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/handleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/handleList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/updateHandleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/updateHandleList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/updateUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/updateUserList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/admin/userList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/fail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/fail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/handle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/handle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/handleAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/handleAdd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/sell/sellerList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/user/infoUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/user/infoUpdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/user/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/user/orderList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/user/self_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/user/self_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/user/usermain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_web_xd_war_exploded/user/usermain.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/dao/GoodsDao$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/dao/GoodsDao$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/dao/GoodsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/dao/HandleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/dao/HandleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/dao/OrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/util/UserUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/util/UserUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/Seller/SellerGoods/SellerGoods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/Seller/SellerGoods/SellerGoods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/Seller/SellerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/UserDoInfoUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/UserDoInfoUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/UserInfoUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/UserInfoUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/UserMainWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/UserMainWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/UserSelfInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_web_xd/com/xhxc/web/User/UserSelfInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/dao/GoodsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/dao/HandleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/dao/HandleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/util/UserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/util/UserUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerGoods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerGoods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerGoodsAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerGoodsAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/User/UserDoInfoUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/User/UserDoInfoUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/User/UserInfoUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/User/UserInfoUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/User/UserMainWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/User/UserMainWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/User/UserSelfInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/User/UserSelfInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/index/DoLoginWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/index/DoLoginWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/index/DoRegisterWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/index/DoRegisterWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/index/ImageWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/index/ImageWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/xhxc/web/index/IndexWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xhxc/web/index/IndexWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/addHandleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/addHandleList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/addUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/addUserList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/goodsList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/goodsList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/handleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/handleList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/updateHandleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/updateHandleList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/updateUserList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/updateUserList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/userList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/fail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sell/goods.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sell/goods.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sell/handle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sell/handle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sell/handleAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sell/handleAdd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sell/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sell/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sell/sellerList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/infoUpdate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/infoUpdate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/orderList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/self_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/self_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/usermain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/usermain.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,127 +129,133 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ele: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.55764073">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web/css/login.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="111">
-                  <caret line="23" column="69" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="69" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/image/loginBg.jpg">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/fail.jsp">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/index/register.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/index/registerFail.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/index/loginFail.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="368">
-                  <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/index/login.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="253">
-                  <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="528">
-                  <caret line="48" column="38" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/web/index.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/IndexWeb.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web/index/login.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/addHandleList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index/proDetails.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="139" column="76" selection-start-line="139" selection-start-column="76" selection-end-line="139" selection-end-column="76" />
+              <folding>
+                <element signature="e#5624#5630#0#HTML" expanded="true" />
+                <element signature="e#5630#5636#0#HTML" expanded="true" />
+                <element signature="e#5637#5643#0#HTML" expanded="true" />
+                <element signature="e#5643#5649#0#HTML" expanded="true" />
+                <element signature="e#5651#5657#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/style1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="172" column="26" selection-start-line="172" selection-start-column="26" selection-end-line="172" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/sell/handleAdd.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="86" column="6" lean-forward="true" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/sell/handle.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="14" selection-start-line="14" selection-end-line="87" selection-end-column="21" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/sell/info.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/sell/infoUpdate.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/orderList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="44" column="143" selection-start-line="44" selection-start-column="143" selection-end-line="44" selection-end-column="143" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/orderUpdateWeb.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="45" column="143" selection-start-line="45" selection-start-column="142" selection-end-line="45" selection-end-column="143" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/sell/goodsUpdate.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -166,23 +267,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mis</find>
-      <find>table-hover</find>
-      <find>right</find>
-      <find>xiugai</find>
-      <find>center</find>
-      <find>mt</find>
-      <find>mt20</find>
-      <find>bann</find>
-      <find>banner</find>
-      <find>jpg</find>
-      <find>font</find>
-      <find>fooot</find>
-      <find>logo</find>
-      <find>mist</find>
-      <find>login</find>
-      <find>lo</find>
-      <find>form</find>
+      <find>jieshao</find>
+      <find>返回</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,57 +277,45 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/DoAddUserList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/DeleteUserList.java" />
-        <option value="$PROJECT_DIR$/web/admin/updateuserlist.jsp" />
-        <option value="$PROJECT_DIR$/web/admin/updatehandlelist.jsp" />
-        <option value="$PROJECT_DIR$/web/admin/addhandlelist.jsp" />
-        <option value="$PROJECT_DIR$/web/fail.jsp" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/DoAddHandleList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/DoUpdateHandleList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/AddHandleList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/AddUserList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/AdminPage.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/HandleList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/UpdateHandleList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/UpdateUserList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/UserList.java" />
-        <option value="$PROJECT_DIR$/web/css/pintuer.css" />
         <option value="$PROJECT_DIR$/src/com/xhxc/dao/GoodsDao.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/Goods/DeleteGoods.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/DeleteHandleList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/User/DoAddUserList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/User/DoUpdateUserList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/util/JDBCUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/pojo/Goods.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/UpdateHandleList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/DoUpdateHandleList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/dao/HandleDao.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/AddHandleList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/DoAddHandleList.java" />
+        <option value="$USER_HOME$/Desktop/index/login.jsp" />
+        <option value="$PROJECT_DIR$/web/index/logindone.jsp" />
+        <option value="$PROJECT_DIR$/web/index/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/index/IndexWeb.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsAdd.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsUpdate.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerInfo/SellerDoInfoUpdate.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/index/ProListWeb.java" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/web/fail.jsp" />
+        <option value="$PROJECT_DIR$/web/orderfail.jsp" />
+        <option value="$PROJECT_DIR$/src/com/xhxc/web/index/AddOrderWeb.java" />
+        <option value="$PROJECT_DIR$/web/index/proList.jsp" />
+        <option value="$PROJECT_DIR$/web/index/login.jsp" />
         <option value="$PROJECT_DIR$/web/admin/addUserList.jsp" />
-        <option value="$PROJECT_DIR$/web/admin/handleList.jsp" />
-        <option value="$PROJECT_DIR$/web/admin/addHandleList.jsp" />
         <option value="$PROJECT_DIR$/web/admin/goodsList.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/handleList.jsp" />
         <option value="$PROJECT_DIR$/web/admin/updateHandleList.jsp" />
         <option value="$PROJECT_DIR$/web/admin/updateUserList.jsp" />
         <option value="$PROJECT_DIR$/web/admin/userList.jsp" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/index/ImageWeb.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/index/DoRegisterWeb.java" />
+        <option value="$PROJECT_DIR$/web/user/infoUpdate.jsp" />
+        <option value="$PROJECT_DIR$/web/user/orderList.jsp" />
+        <option value="$PROJECT_DIR$/web/user/orderUpdateWeb.jsp" />
+        <option value="$PROJECT_DIR$/web/user/self_info.jsp" />
+        <option value="$PROJECT_DIR$/web/user/usermain.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/addHandleList.jsp" />
         <option value="$PROJECT_DIR$/src/com/xhxc/web/index/DoLoginWeb.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/User/UserList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/User/AddUserList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/User/DeleteUserList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/HandleList.java" />
-        <option value="$PROJECT_DIR$/src/com/xhxc/web/Admin/Goods/GoodsList.java" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/index/register.jsp" />
-        <option value="$PROJECT_DIR$/web/index/index.jsp" />
-        <option value="$PROJECT_DIR$/web/css/login.css" />
-        <option value="$PROJECT_DIR$/web/index/login.jsp" />
+        <option value="$PROJECT_DIR$/web/sell/info.jsp" />
+        <option value="$PROJECT_DIR$/web/sell/handle.jsp" />
+        <option value="$PROJECT_DIR$/web/sell/handleAdd.jsp" />
+        <option value="$PROJECT_DIR$/web/sell/goods.jsp" />
+        <option value="$PROJECT_DIR$/web/sell/goodsAdd.jsp" />
+        <option value="$PROJECT_DIR$/web/sell/goodsUpdate.jsp" />
+        <option value="$PROJECT_DIR$/web/sell/infoUpdate.jsp" />
+        <option value="$PROJECT_DIR$/web/css/style1.css" />
+        <option value="$PROJECT_DIR$/web/index/proDetails.jsp" />
       </list>
     </option>
   </component>
@@ -259,10 +333,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="660" />
-    <option name="y" value="175" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="980" />
-    <option name="height" value="1030" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -272,17 +346,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
@@ -301,6 +371,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xhxc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
@@ -318,6 +404,15 @@
               <item name="xhxc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xhxc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
@@ -334,7 +429,37 @@
               <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="goodsimg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="sell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_web_xd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_web_xd" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -342,26 +467,24 @@
       </pane>
       <pane id="NBKnowledgePane" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688622310291" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-java-5.1.38.jar!/" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688653802755" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/index/index.jsp" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\java_web_xd\web\image" />
-      <recent name="E:\java_web_xd\web" />
-      <recent name="E:\java_web_xd\web\index\image" />
-      <recent name="E:\java_web_xd\src\com\xhxc\web" />
       <recent name="E:\java_web_xd\web\css" />
+      <recent name="E:\java_web_xd\web\user" />
+      <recent name="E:\java_web_xd\src\com\xhxc\web\User" />
+      <recent name="E:\java_web_xd\web\sell" />
+      <recent name="E:\java_web_xd\src\com\xhxc\web\Seller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,6 +501,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.70" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8 (2)" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -389,7 +514,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_java_web_xd" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_java_web_xd_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -397,7 +522,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="10883" />
+        <option name="DEBUG_PORT" value="8017" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -451,77 +576,13 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_java_web_xd" />
-        <option name="HTTP_PORT" value="8080" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="10883" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a244e524-2afb-4c1f-ab22-357076d27838" name="Default Changelist" comment="" />
+      <changelist id="411188a9-1ed1-4d32-a455-f737de4f2aea" name="Default Changelist" comment="" />
       <created>1688309303077</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -538,7 +599,12 @@
       <workItem from="1688558214997" duration="12151000" />
       <workItem from="1688606771980" duration="6425000" />
       <workItem from="1688614688190" duration="3138000" />
-      <workItem from="1688619929920" duration="2291000" />
+      <workItem from="1688619929920" duration="2494000" />
+      <workItem from="1688622471042" duration="4716000" />
+      <workItem from="1688628669456" duration="4171000" />
+      <workItem from="1688640461184" duration="7640000" />
+      <workItem from="1688648685413" duration="5162000" />
+      <workItem from="1688653916079" duration="1960000" />
     </task>
     <task id="LOCAL-00001" summary="修改了pojo.User.java">
       <created>1688309593866</created>
@@ -624,26 +690,29 @@
       <option name="project" value="LOCAL" />
       <updated>1688619615599</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="更改了图片和样式">
+      <created>1688622351286</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1688622351286</updated>
+    </task>
+    <task id="LOCAL-00014" summary="更改了图片和样式,整合了整个项目">
+      <created>1688628037509</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688628037509</updated>
+    </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66058000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="19102000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="125" width="784" height="824" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25134048" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18967828" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -652,8 +721,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49103448" weight="0.32258064" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" visible="true" weight="0.41614908" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49103448" weight="0.30645162" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49597856" visible="true" weight="0.31085044" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -664,23 +733,23 @@
       <window_info anchor="bottom" id="Sequence Diagram" order="10" sideWeight="0.49865952" weight="0.32991204" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49932975" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="12" sideWeight="0.4966488" weight="0.32991204" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49463806" weight="0.35190615" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49463806" weight="0.35043988" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32991204" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.42668623" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.42375368" />
       <window_info anchor="bottom" id="Application Servers" order="16" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
-      <window_info anchor="right" id="Database" order="7" weight="0.3297587" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="9" weight="0.3297587" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25134048" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2707775" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -689,8 +758,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49103448" weight="0.32258064" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" visible="true" weight="0.39361703" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49103448" weight="0.30645162" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49597856" visible="true" weight="0.31085044" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -701,20 +770,20 @@
       <window_info anchor="bottom" id="Sequence Diagram" order="10" sideWeight="0.49865952" weight="0.32991204" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49932975" weight="0.32991204" />
       <window_info anchor="bottom" id="Database Changes" order="12" sideWeight="0.4966488" weight="0.32991204" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49463806" weight="0.35190615" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49463806" weight="0.35043988" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32991204" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.42668623" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.42375368" />
       <window_info anchor="bottom" id="Application Servers" order="16" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
-      <window_info anchor="right" id="Database" order="7" weight="0.3297587" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="9" weight="0.3297587" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -771,274 +840,264 @@
     <MESSAGE value="修改了logo；&#10;重新布置了格式&#10;添加了/admin/handleList.jsp" />
     <MESSAGE value="修改了网页布局" />
     <MESSAGE value="更改了图片和样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改了图片和样式" />
+    <MESSAGE value="更改了图片和样式,整合了整个项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改了图片和样式,整合了整个项目" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/sell/handle.jsp</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/GoodsDao.java">
+    <entry file="file://$PROJECT_DIR$/web/index/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#2793#2794#0" expanded="true" />
-            <element signature="e#2881#2882#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/pojo/Handle.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerGoods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/DoUpdateHandleList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/UpdateHandleList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/DoAddHandleList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/user/self_info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-759" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/addHandleList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="123" column="22" lean-forward="true" selection-start-line="123" selection-start-column="22" selection-end-line="123" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/addUserList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1135">
-          <caret line="83" column="54" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/adminPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/goodsList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="140" column="9" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/handleList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="123" selection-start-line="123" selection-end-line="132" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/updateHandleList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/updateUserList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/DoRegisterWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/HandleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/pojo/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1748#1749#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/DoLoginWeb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370">
-          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="46">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="163">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/User/DeleteUserList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerGoods/SellerDoGoodsUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="345">
+          <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/User/UserList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Seller/SellerInfo/SellerDoInfoUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="437">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/User/AddUserList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserDoInfoUpdate.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserOrderUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        <state relative-caret-position="-15">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/User/DoAddUserList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserDoOrderUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="114">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/HandleList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/dao/OrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="421">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/Goods/GoodsList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/RegisterWeb.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/DoAddOrderWeb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/User/UserOrderDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/fail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index/register.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index/loginFail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="7" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/orderfail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/AddOrderWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-996">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/IndexWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index/proList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/addUserList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="59" column="143" selection-start-line="59" selection-start-column="143" selection-end-line="59" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/adminPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/goodsList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="51" column="143" selection-start-line="51" selection-start-column="143" selection-end-line="51" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/handleList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="52" column="143" selection-start-line="52" selection-start-column="143" selection-end-line="52" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/updateHandleList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="58" column="143" lean-forward="true" selection-start-line="58" selection-start-column="143" selection-end-line="58" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/updateUserList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="58" column="143" selection-start-line="58" selection-start-column="143" selection-end-line="58" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/userList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="51" column="143" selection-start-line="51" selection-start-column="143" selection-end-line="51" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/self_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="45" column="143" selection-start-line="45" selection-start-column="143" selection-end-line="45" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/usermain.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="44" column="143" selection-start-line="44" selection-start-column="143" selection-end-line="44" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/DoLoginWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="61" column="57" selection-start-line="61" selection-start-column="57" selection-end-line="61" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1119">
+          <caret line="196" column="12" lean-forward="true" selection-start-line="196" selection-start-column="12" selection-end-line="196" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/infoUpdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="45" column="123" selection-start-line="45" selection-start-column="123" selection-end-line="45" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/login2.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/ProListWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/ProDetailsWeb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1049,118 +1108,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/ImageWeb.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/LoginDoneWeb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/Admin/Handle/AddHandleList.java">
+    <entry file="file://$PROJECT_DIR$/web/sell/goods.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="256">
+          <caret line="86" column="6" lean-forward="true" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/hjh_01.gif" />
-    <entry file="file://$PROJECT_DIR$/web/image/indexad.png" />
-    <entry file="file://$PROJECT_DIR$/web/index/image/rmcc.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/image/login_bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/userList.jsp">
+    <entry file="file://$PROJECT_DIR$/web/sell/goodsAdd.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2898">
-          <caret line="126" selection-start-line="126" selection-end-line="135" selection-end-column="9" />
+        <state relative-caret-position="236">
+          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/image/mistore_logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/admin.css">
+    <entry file="file://$PROJECT_DIR$/web/sell/goodsUpdate.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        <state relative-caret-position="305">
+          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/image/logo.jpg" />
-    <entry file="file://$PROJECT_DIR$/web/image/logo.png" />
-    <entry file="file://$PROJECT_DIR$/web/index/test.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/index/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/sell/handle.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="123">
+          <caret line="14" selection-start-line="14" selection-end-line="87" selection-end-column="21" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/sell/handleAdd.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="173">
+          <caret line="86" column="6" lean-forward="true" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xhxc/web/index/IndexWeb.java">
+    <entry file="file://$PROJECT_DIR$/web/sell/info.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="70">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/image/loginBg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/fail.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/register.jsp">
+    <entry file="file://$PROJECT_DIR$/web/sell/infoUpdate.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        <state relative-caret-position="374">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/loginFail.jsp">
+    <entry file="file://$PROJECT_DIR$/web/user/orderList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="736">
+          <caret line="44" column="143" selection-start-line="44" selection-start-column="143" selection-end-line="44" selection-end-column="143" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/registerFail.jsp">
+    <entry file="file://$PROJECT_DIR$/web/user/orderUpdateWeb.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="267">
+          <caret line="45" column="143" selection-start-line="45" selection-start-column="142" selection-end-line="45" selection-end-column="143" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+    <entry file="file://$PROJECT_DIR$/web/admin/addHandleList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="48" column="38" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="38" />
+        <state relative-caret-position="419">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index/login.jsp">
+    <entry file="file://$PROJECT_DIR$/web/css/style1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="167">
+          <caret line="172" column="26" selection-start-line="172" selection-start-column="26" selection-end-line="172" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/login.css">
+    <entry file="file://$PROJECT_DIR$/web/index/proDetails.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="23" column="69" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="69" />
+        <state relative-caret-position="92">
+          <caret line="139" column="76" selection-start-line="139" selection-start-column="76" selection-end-line="139" selection-end-column="76" />
+          <folding>
+            <element signature="e#5624#5630#0#HTML" expanded="true" />
+            <element signature="e#5630#5636#0#HTML" expanded="true" />
+            <element signature="e#5637#5643#0#HTML" expanded="true" />
+            <element signature="e#5643#5649#0#HTML" expanded="true" />
+            <element signature="e#5651#5657#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,7 +1257,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1206,7 +1280,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8 (2)</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

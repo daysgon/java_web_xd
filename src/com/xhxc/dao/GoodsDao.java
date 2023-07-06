@@ -25,7 +25,9 @@ public class GoodsDao {
                     goods.setMessage(rs.getString("message"));
                     goods.setGoodsname(rs.getString("goodsname"));
                     goods.setUid(rs.getInt("uid"));
-                    goods.setImg(rs.getString("img"));
+                    String daPath= rs.getString("img");
+
+                    goods.setImg(daPath);
                 } catch (SQLException e) {
                     e.printStackTrace();
                 }
@@ -45,7 +47,8 @@ public class GoodsDao {
    }
 
     //    根据id查一个
-    public Goods getById(int id){
+
+    public Goods getOneById(int id){
         return JDBCUtil.QueryOne("select * from goods where id=?", new RowMap<Goods>() {
             @Override
             public Goods rowMapping(ResultSet rs) {
@@ -68,12 +71,81 @@ public class GoodsDao {
         }, id);
     }
 
+    public ArrayList<Goods> getAllByHid(int hid){
+        return JDBCUtil.executeQuery("select * from goods where hid=?", new RowMap<Goods>() {
+            @Override
+            public Goods rowMapping(ResultSet rs) {
+                Goods goods = new Goods();
+                try {
+                    goods.setId(rs.getInt("id"));
+                    goods.setPrice(rs.getDouble("price"));
+                    goods.setStore(rs.getInt("store"));
+                    goods.setActive(rs.getInt("active"));
+                    goods.setHid(rs.getInt("hid"));
+                    goods.setMessage(rs.getString("message"));
+                    goods.setGoodsname(rs.getString("goodsname"));
+                    goods.setUid(rs.getInt("uid"));
+                    goods.setImg(rs.getString("img"));
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                return goods;
+            }
+        },hid);
+    }
+
+    public ArrayList<Goods> getUid(int uid){
+        return JDBCUtil.executeQuery("select * from goods where uid = ?", new RowMap<Goods>() {
+            @Override
+            public Goods rowMapping(ResultSet rs) {
+                Goods goods = new Goods();
+                try {
+                    goods.setId(rs.getInt("id"));
+                    goods.setPrice(rs.getDouble("price"));
+                    goods.setStore(rs.getInt("store"));
+                    goods.setActive(rs.getInt("active"));
+                    goods.setHid(rs.getInt("hid"));
+                    goods.setMessage(rs.getString("message"));
+                    goods.setGoodsname(rs.getString("goodsname"));
+                    goods.setUid(rs.getInt("uid"));
+                    goods.setImg(rs.getString("img"));
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                return goods;
+            }
+        },uid);
+    }
+
     public int update(Goods goods){
         return JDBCUtil.executeUpdate("update goods set goodsname=?,message=?,img=?,store=?,price=?,hid=?,uid=?,active=? where id=?",
-                goods.getGoodsname(),goods.getMessage(),goods.getImg(),goods.getStore(),goods.getPrice(),goods.getHid(),goods.getUid(),goods.getActive());
+                goods.getGoodsname(),goods.getMessage(),goods.getImg(),goods.getStore(),goods.getPrice(),goods.getHid(),goods.getUid(),goods.getActive(),goods.getId());
     }
     public int del(int id){
         return JDBCUtil.executeUpdate("update goods set active=0 where id=?",id);
     }
 
+
+    public Goods getById(int id){
+        return JDBCUtil.QueryOne("select * from goods where id=?", new RowMap<Goods>() {
+            @Override
+            public Goods rowMapping(ResultSet rs) {
+                Goods goods = new Goods();
+                try {
+                    goods.setId(rs.getInt("id"));
+                    goods.setPrice(rs.getDouble("price"));
+                    goods.setStore(rs.getInt("store"));
+                    goods.setActive(rs.getInt("active"));
+                    goods.setHid(rs.getInt("hid"));
+                    goods.setMessage(rs.getString("message"));
+                    goods.setGoodsname(rs.getString("goodsname"));
+                    goods.setUid(rs.getInt("uid"));
+                    goods.setImg(rs.getString("img"));
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+                return goods;
+            }
+        }, id);
+    }
 }

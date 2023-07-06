@@ -49,7 +49,7 @@
         <ul>
             <li>
                 <div  style="text-align: right">
-                    <a href="./login.html" target="_blank">退出登录</a>|<a href="./register.html" target="_blank" >注册</a>|<a href="./self_info.html">返回首页</a>
+                    <a href="/index/login" target="_blank">退出登录</a>|<a href="/index/register" target="_blank" >注册</a>|<a href="/index">返回首页</a>
                 </div>
 
             </li>

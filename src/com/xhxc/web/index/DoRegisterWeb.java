@@ -1,5 +1,6 @@
 package com.xhxc.web.index;
 
+
 import com.xhxc.dao.UserDao;
 import com.xhxc.pojo.User;
 
@@ -9,7 +10,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 @WebServlet("/index/doRegister")
 public class DoRegisterWeb extends HttpServlet {
@@ -29,7 +29,7 @@ public class DoRegisterWeb extends HttpServlet {
         user.setEmail(email);
         user.setRole(role);
         user.setActive(1);
-//        System.out.println(user);
+        System.out.println(user);
 
         String piccode = (String) req.getSession().getAttribute("piccode");
         String checkCode = req.getParameter("checkCode");

@@ -37,15 +37,15 @@
     <a href=""><div class="ad_top fl"></div></a>
     <div class="nav fl">
         <ul>
-            <li><a href="">小米手机</a></li>
-            <li><a href="">红米</a></li>
-            <li><a href="">平板·笔记本</a></li>
-            <li><a href="">电视</a></li>
-            <li><a href="">盒子·影音</a></li>
-            <li><a href="">路由器</a></li>
-            <li><a href="">智能硬件</a></li>
-            <li><a href="">服务</a></li>
-            <li><a href="">社区</a></li>
+            <li><a href="">电容</a></li>
+            <li><a href="">电阻</a></li>
+            <li><a href="">杜邦线</a></li>
+            <li><a href="">二极管</a></li>
+            <li><a href="">贴片电容</a></li>
+            <li><a href="">直插电容/a></li>
+            <li><a href="">插件电容</a></li>
+            <li><a href="">变容二极管</a></li>
+            <li><a href="">雪崩二极管</a></li>
 
 
 
@@ -57,7 +57,7 @@
         <ul>
             <li>
                 <div  style="text-align: right">
-                    <a href="./login.html" target="_blank">退出登录</a>|<a href="./register.html" target="_blank" >注册</a>|<a href="./self_info.html">返回首页</a>
+                    <a href="/index/login" target="_blank">退出登录</a>|<a href="/index/register" target="_blank" >注册</a>|<a href="/index">返回首页</a>
                 </div>
 
             </li>

@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="author" content="order by dede58.com"/>
     <title>小米商城-个人中心</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="stylesheet" href="/css/pintuer.css">
-    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" type="text/css" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/pintuer2.css">
+    <link rel="stylesheet" href="../css/admin2.css">
 </head>
 <body>
 <!-- start header -->
@@ -71,19 +71,19 @@
             <li><a href="">服务</a></li>
             <li><a href="">社区</a></li>
         </ul>
+
     </div>
-    <div class="search fr">
-        <form action="" method="post">
-            <div class="text fl">
-                <input type="text" class="shuru"  placeholder="小米6&nbsp;小米MIX现货">
-            </div>
-            <div class="submit fl">
-                <input type="submit" class="sousuo" value="搜索"/>
-            </div>
-            <div class="clear"></div>
-        </form>
-        <div class="clear"></div>
+    <div class="navright fl">
+        <ul>
+            <li>
+                <div  style="text-align: right">
+                    <a href="/index/login" target="_blank">退出登录</a>|<a href="/index/register" target="_blank" >注册</a>|<a href="/index">返回首页</a>
+                </div>
+
+            </li>
+        </ul>
     </div>
+
 </div>
 <!-- end banner_x -->
 <!-- self_info -->
@@ -91,25 +91,20 @@
     <div class="selfinfo center">
         <div class="lfnav fl">
             <div class="ddzx">管理中心</div>
-            <div class="subddzx">
+            <div class="subddzx" style="font-size: 16px;">
                 <ul>
-                    <li><a href="/sell/handle" style="color:#ff6700;font-weight:bold;">品类管理</a></li>
-                    <li><a href="/sell/goods">商品管理</a></li>
-                    <li><a href="">团购订单</a></li>
-                    <li><a href="">评价晒单</a></li>
+                    <li><a href="/sell/handle" >品类管理</a></li>
+                    <li><a href="/sell/goods" style="color:#ff6700;font-weight:bold;">商品管理</a></li>
                 </ul>
             </div>
             <div class="ddzx">个人中心</div>
-            <div class="subddzx">
+            <div class="subddzx" style="font-size: 16px;">
                 <ul>
                     <li><a href="/sell/info">我的个人中心</a></li>
-                    <li><a href="">消息通知</a></li>
-                    <li><a href="">优惠券</a></li>
-                    <li><a href="">收货地址</a></li>
                 </ul>
             </div>
         </div>
-        <div class="rtcont fr">
+        <div class="rtcont fr" style="overflow: scroll">
             <div class="panel admin-panel">
                 <div class="panel-head"><strong class="icon-reorder"> 品类列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
                 <div class="padding border-bottom">
@@ -167,7 +162,7 @@
                         <th width="310">操作</th>
                     </tr>
                     <volist name="list" id="vo">
-                        <c:forEach items="${all}" var="u">
+                        <c:forEach items="${goods}" var="u">
                         <tr>
                             <td style="text-align:left; padding-left:20px;">${u.id}</td>
                             <td>${u.goodsname}</td>
@@ -183,7 +178,7 @@
                             <td>${u.active}</td>
                             <td>${u.hid}</td>
                             <td>${u.uid}</td>
-                            <td><div class="button-group"> <a class="button border-main" href="/sell/goodsUpdate?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/sell/goodsDel?id=${u.id}"><span class="icon-trash-o"></span> 删除</a> </div></td>
+                            <td><div class="button-group"> <a class="button border-main" href="/sell/goodsUpdate?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/sell/goodsDelete?id=${u.id}"><span class="icon-trash-o"></span> 删除</a> </div></td>
                         </tr>
                         </c:forEach>
 

@@ -9,6 +9,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.Random;
+
 @WebServlet("/imageServlet")
 public class ImageWeb extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {

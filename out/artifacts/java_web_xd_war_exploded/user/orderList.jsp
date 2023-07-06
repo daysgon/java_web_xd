@@ -42,7 +42,7 @@
         <ul>
             <li>
                 <div  style="text-align: right">
-                    <a href="./login.html" target="_blank">退出登录</a>|<a href="./register.html" target="_blank" >注册</a>|<a href="./self_info.html">返回首页</a>
+                    <a href="/index/login" target="_blank">退出登录</a>|<a href="/index/register" target="_blank" >注册</a>|<a href="/index">返回首页</a>
                 </div>
 
             </li>
@@ -68,7 +68,7 @@
         </div>
         <div class="rtcont fr">
             <div class="panel admin-panel">
-                <div class="panel-head"><strong class="icon-reorder"> 用户列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
+                <div class="panel-head"><strong class="icon-reorder"> 订单列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
                 <div class="padding border-bottom">
                     <ul class="search" style="padding-left:10px;">
                         <li> <a class="button border-main icon-plus-square-o" href="/back/addlist"> 添加内容</a> </li>
@@ -106,6 +106,7 @@
                             <td><div class="button-group"> <a class="button border-main" href="/admin/updateuserlist?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/admin/deleteuserlist?id=${u.id}"><span class="icon-trash-o"></span> 删除</a></td></td>
                         </tr>
                         </c:forEach>
+                            <div class="biaotou ml40"><span>总价:</span></div><div type="text" class="price ml40" >999.0</div>
                 </table>
             </div>
         </div>
@@ -117,8 +118,14 @@
 
 <!-- self_info -->
 
-<footer class="mt20 center">
-    <div class="mt20">星火小仓：做最好的电子元件商城</div>
+<footer>
+    <div class="mt20">
+        星火小仓：做最好的电子元件商城
+        <br>
+        欢迎联系我们：100800600
+        <br>
+        地址：西安电子科技大学南校区
+    </div>
 
 </footer>
 </body>

@@ -13,9 +13,9 @@
     <meta charset="UTF-8">
     <meta name="author" content="order by dede58.com"/>
     <title>小米商城-个人中心</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="stylesheet" href="/css/pintuer.css">
-    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" type="text/css" href="../css/style2.css">
+    <link rel="stylesheet" href="../css/pintuer2.css">
+    <link rel="stylesheet" href="../css/admin2.css">
 </head>
 <body>
 <!-- start header -->
@@ -78,52 +78,47 @@
             <li><a href="">服务</a></li>
             <li><a href="">社区</a></li>
         </ul>
+
     </div>
-    <div class="search fr">
-        <form action="" method="post">
-            <div class="text fl">
-                <input type="text" class="shuru"  placeholder="小米6&nbsp;小米MIX现货">
-            </div>
-            <div class="submit fl">
-                <input type="submit" class="sousuo" value="搜索"/>
-            </div>
-            <div class="clear"></div>
-        </form>
-        <div class="clear"></div>
+    <div class="navright fl">
+        <ul>
+            <li>
+                <div  style="text-align: right">
+                    <a href="/index/login" target="_blank">退出登录</a>|<a href="/index/register" target="_blank" >注册</a>|<a href="/index">返回首页</a>
+                </div>
+
+            </li>
+        </ul>
     </div>
+
 </div>
 <!-- end banner_x -->
 <!-- self_info -->
 <div class="grzxbj">
     <div class="selfinfo center">
         <div class="lfnav fl">
-            <div class="ddzx">订单中心</div>
-            <div class="subddzx">
+            <div class="ddzx">管理中心</div>
+            <div class="subddzx" style="font-size: 16px;">
                 <ul>
                     <li><a href="/sell/handle">品类管理</a></li>
                     <li><a href="/sell/goods">商品管理</a></li>
-                    <li><a href="">团购订单</a></li>
-                    <li><a href="">评价晒单</a></li>
                 </ul>
             </div>
             <div class="ddzx">个人中心</div>
-            <div class="subddzx">
+            <div class="subddzx" style="font-size: 16px;">
                 <ul>
-                    <li><a href="/sellinfo" style="color:#ff6700;font-weight:bold;">我的个人中心</a></li>
-                    <li><a href="">消息通知</a></li>
-                    <li><a href="">优惠券</a></li>
-                    <li><a href="">收货地址</a></li>
+                    <li><a href="/sell/info" style="color:#ff6700;font-weight:bold;">我的个人中心</a></li>
                 </ul>
             </div>
         </div>
-        <div class="rtcont fr">
-            <div class="grzlbt ml40">我的卖家资料</div>
-            <div class="subgrzl ml40"><span>昵称</span><span>啦啦维吉尔</span><span><a href="">编辑</a></span></div>
-            <div class="subgrzl ml40"><span>手机号</span><span>15669097417</span><span><a href="">编辑</a></span></div>
-            <div class="subgrzl ml40"><span>密码</span><span>************</span><span><a href="">编辑</a></span></div>
-            <div class="subgrzl ml40"><span>个性签名</span><span>一支穿云箭，千军万马来相见！</span><span><a href="">编辑</a></span></div>
-            <div class="subgrzl ml40"><span>我的爱好</span><span>游戏，音乐，旅游，健身</span><span><a href="">编辑</a></span></div>
-            <div class="subgrzl ml40"><span>收货地址</span><span>浙江省杭州市江干区19号大街571号</span><span><a href="">编辑</a></span></div>
+        <div class="rtcont fr" style="overflow: scroll">
+            <div class="grzlbt ml40">我的资料</div>
+            <div class="subgrzl ml40"><span>昵称</span><span>${user.username}</span></div>
+            <div class="subgrzl ml40"><span>手机号</span><span>${user.phone}</span></div>
+            <div class="subgrzl ml40"><span>邮箱</span><span>${user.email}</span></div>
+            <div class="subgrzl ml40"><span>密码</span><span>${user.password}</span></div>
+            <div class="subgrzl ml40"><span>地址</span><span>${user.address}</span></div>
+            <div class="xiugai ml40"><span><a href="/sell/infoUpdate">修改</a></span></div>
 
         </div>
         <div class="clear"></div>

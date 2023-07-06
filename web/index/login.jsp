@@ -7,16 +7,18 @@
     <meta name="author" content="order by dede58.com"/>
     <title>会员登录</title>
     <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
 </head>
 <body>
 <!-- login -->
 <div class="top center">
     <div class="logo center">
-        <a href="index.jsp" target="_blank"><img src="image/logo.png" alt=""></a>
+        <a href="/index/index.jsp" target="_blank"><img src="./image/logo.png" alt=""></a>
     </div>
 </div>
 <form  method="post" action="/index/doLogin" class="form center">
-    <div class="login"  >
+    <div class="login">
         <div class="login_center">
             <div class="login_top">
                 <div class="left fl">会员登录</div>
@@ -32,7 +34,7 @@
                     <%--<div class="right fl"><img src="./image/rmcc.jpg"></div>--%>
                     <img alt="验证码" id="imagecode" src="<%= request.getContextPath()%>/imageServlet"/>
 
-                <%--<div class="login_top">--%>
+                    <%--<div class="login_top">--%>
                     <div class="panel-body" style="padding:50px; padding-bottom:200px; padding-top:20px;">
                         <div class="left fl">
                             超级管理员：<input type="radio" name="role" value="0">
@@ -51,8 +53,13 @@
     </div>
 </form>
 <footer>
-    <div class="copyright">简体 | 繁体 | English | 常见问题</div>
-    <div class="copyright">星火科技公司版权所有-京ICP备10046444-<img src="" alt="">京公网安备11010802020134号-京ICP证110507号</div>
+    <div class="mt20">
+        星火小仓：做最好的电子元件商城
+        <br>
+        欢迎联系我们：100800600
+        <br>
+        地址：西安电子科技大学南校区
+    </div>
 
 </footer>
 </body>

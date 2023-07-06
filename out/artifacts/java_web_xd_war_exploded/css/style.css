@@ -9,6 +9,7 @@ a{border:none;text-decoration: none;color:#000;}
 .fr{float: right;}
 .clear{clear:both;}
 .mt20{position:absolute;bottom:10px;text-align: center;width: 100%;font-size:14px  }
+.mt21{position:absolute;bottom:-100px;text-align: center;width: 100%;font-size:14px  }
 .mt10{margin-top: 10px;}
 .mb10{margin-bottom: 10px}
 .mb5{margin-bottom: 5px}
@@ -252,4 +253,10 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 .grzxbj .selfinfo .rtcont .ddxq .ztxx ul li a{color:rgb(117,117,117);}
 .grzxbj .selfinfo .rtcont .ddxq .ztxx ul li a:hover{color:#ff6700;}
 /*footer*/
-footer{width: 100%;height: 100px;color: cadetblue;line-height: 30px;text-align: center;font-size: 14px;background: rgb(255,255,255);padding:30px 0;}
+footer{width: 100%;height: 100px;color: cadetblue;line-height: 30px;text-align: center;font-size: 14px;background: rgb(255,255,255);padding:30px 0;position: absolute;bottom: 0px;}
+/**/
+.grzxbj .selfinfo .rtcont .price{float: right;right: 30% ;height: 45px;line-height: 45px;width: 700px;border:0px solid #aaa;margin-top: 10px;margin-bottom: 10px;border-radius: 10px;}
+.grzxbj .selfinfo .rtcont .price{float:right ; right :30%;text-align:right ;right:5%;width:700px;height: 45px;line-height: 45px;font-size: 26px;color:rgb(178,34,34);}
+
+.grzxbj .selfinfo .rtcont .fukuan{float: right;right: 30% ;height: 45px;line-height: 45px;width: 100px;border:1px solid #aaa;margin-top: 10px;margin-bottom: 10px;border-radius: 10px;}
+.grzxbj .selfinfo .rtcont .fukuan{float:right ; right :30%; text-align:center ;width:100px;height: 45px;line-height: 45px;font-size: 22px;color:rgb(255,36,0);}

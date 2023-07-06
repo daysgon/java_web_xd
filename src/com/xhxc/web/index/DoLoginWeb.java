@@ -1,5 +1,6 @@
 package com.xhxc.web.index;
 
+
 import com.xhxc.dao.UserDao;
 import com.xhxc.pojo.User;
 
@@ -20,11 +21,11 @@ public class DoLoginWeb extends HttpServlet {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         int role = Integer.parseInt(req.getParameter("role"));
-        System.out.println(username);
-        System.out.println(password);
-        System.out.println(role);
+//        System.out.println(username);
+//        System.out.println(password);
+//        System.out.println(role);
         User user = dao.getOneByUsernameAndPassword(username, password);
-
+//        System.out.println(user);
 
         String piccode = (String) req.getSession().getAttribute("piccode");
         String checkCode = req.getParameter("checkCode");
@@ -45,19 +46,20 @@ public class DoLoginWeb extends HttpServlet {
 //  超级管理员          req.getRequestDispatcher("backList.jsp").forward(req,resp);
                         HttpSession session = req.getSession();
                         session.setAttribute("user",user);
-                        resp.sendRedirect("/admin/userlist");
+
+                        resp.sendRedirect("/index");
                     }else if(user.getRole()==role && user.getRole()==1){
                         //卖家
                         HttpSession session = req.getSession();
                         session.setAttribute("user",user);
-                        resp.sendRedirect("/test/saleList");
+                        resp.sendRedirect("/index");
                     } else if(user.getRole()==role && user.getRole()==2){
 //买家
                         HttpSession session = req.getSession();
                         session.setAttribute("user",user);
-                        resp.sendRedirect("/test/buyerList");
+                        resp.sendRedirect("/index");
                     }else{
-                        req.getRequestDispatcher("/back/message.jsp").forward(req,resp);
+                        req.getRequestDispatcher("/index/login").forward(req,resp);
                     }
                 }
             }
@@ -66,8 +68,6 @@ public class DoLoginWeb extends HttpServlet {
             req.setAttribute("msg","验证码输入错误");
             req.getRequestDispatcher("/index/loginFail.jsp").forward(req,resp);
         }
-
-        System.out.println(user);
 
 
     }

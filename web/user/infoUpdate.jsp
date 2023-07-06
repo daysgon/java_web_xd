@@ -43,7 +43,7 @@
         <ul>
             <li>
                 <div  style="text-align: right">
-                    <a href="./login.html" target="_blank">退出登录</a>|<a href="./register.html" target="_blank" >注册</a>|<a href="./self_info.html">返回首页</a>
+                    <a href="/index/login" target="_blank">退出登录</a>|<a href="/index/register" target="_blank" >注册</a>|<a href="/index">返回首页</a>
                 </div>
 
             </li>
@@ -89,8 +89,14 @@
 </div>
 <!-- self_info -->
 
-<footer class="mt20 center">
-    <div class="mt20">星火小仓：做最好的电子元件商城</div>
+<footer>
+    <div class="mt20">
+        星火小仓：做最好的电子元件商城
+        <br>
+        欢迎联系我们：100800600
+        <br>
+        地址：西安电子科技大学南校区
+    </div>
 
 </footer>
 </body>
