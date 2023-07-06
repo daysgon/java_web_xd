@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class JDBCUtil {
     static{
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

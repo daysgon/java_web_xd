@@ -81,22 +81,23 @@
 
         </div>
         <div class="rtcont fr">
-            <div class="panel admin-panel">
-                <div class="panel-head"><strong class="icon-reorder"> 修改信息</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
-                <div class="padding border-bottom">
-                    <input type="text" hidden="hidden" name="id" value="${user.id}"   />
-                    <div class="grzlbt ml40">我的资料</div>
 
-                    <div class="subgrzl ml40"><span>昵称</span><span>${user.username}</span></div>
-                    <div class="subgrzl ml40"><span>手机号</span><span>${user.phone}</span></div>
-                    <div class="subgrzl ml40"><span>邮箱</span><span>${user.email}</span></div>
-                    <div class="subgrzl ml40"><span>密码</span><span>${user.password}</span></div>
+            <div class="grzlbt ml40">修改资料</div>
+            <form action="/admin/doupdateuserlist">
+                <input type="text" hidden="hidden" name="id" value="${user.id}" />
+                <div class="biaotou ml40"><span>昵称:</span></div><input type="text" class="xinxi ml40" value="${user.username}" name="username" data-validate="required:请输入昵称" />
+                <div class="biaotou ml40"><span>手机号:</span></div><input type="text" class="xinxi ml40" value="${user.phone}" name="phone" data-validate="required:请输入手机号" />
+                <div class="biaotou ml40"><span>邮箱:</span></div><input type="text" class="xinxi ml40" value="${user.email}" name="email" data-validate="required:请输入邮箱" />
+                <div class="biaotou ml40"><span>密码:</span></div><input type="text" class="xinxi ml40" value="${user.password}" name="password" data-validate="required:请输入密码" />
+                <div class="biaotou ml40"><span>地址:</span></div><input type="text" class="xinxi ml40" value="${user.address}" name="address" data-validate="required:请输入地址" />
+                <%--<div class="xiugai ml40"><span><submit href="/user/doInfoUpdate">确认修改</submit></span></div>--%>
+                <input class="xiugai" type="submit" value="确认修改">
 
-                    <div class="xiugai ml40"><span><a href="/admin/doUpdateUserList">修改</a></span></div>
+            </form>
 
-                </div>
 
-            </div>
+
+
         </div>
     </div>
     <div class="clear"></div>
@@ -106,9 +107,15 @@
 
 <!-- self_info -->
 
-<footer class="mt20 center">
-    <div class="mt20">星火小仓：做最好的电子元件商城</div>
+<footer>
+    <div class="mt20">
+        星火小仓：做最好的电子元件商城
+        <br>
+        欢迎联系我们：100800600
+        <br>
+        地址：西安电子科技大学南校区
+    </div>
 
-</footer>
+</footer><
 </body>
 </html>

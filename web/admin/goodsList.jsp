@@ -73,7 +73,7 @@
             </div>
 
         </div>
-        <div class="rtcont fr">
+        <div class="rtcont fr" style="overflow: scroll">
             <div class="panel admin-panel">
                 <div class="panel-head"><strong class="icon-reorder"> 商品列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
                 <div class="padding border-bottom">
@@ -115,7 +115,7 @@
 
 
 
-                            <td><div class="button-group"> <a class="button border-main" href="/admin/updategoodslelist?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/admin/deletegoodslist?id=${u.id}"><span class="icon-trash-o"></span> 删除</a></div></td>
+                            <td><div class="button-group">  <a class="button border-red" href="/admin/deletegoodslist?id=${u.id}"><span class="icon-trash-o"></span> 删除</a></div></td>
                         </tr>
                         </c:forEach>
                 </table>
@@ -129,8 +129,14 @@
 
 <!-- self_info -->
 
-<footer class="mt20 center">
-    <div class="mt20">星火小仓：做最好的电子元件商城</div>
+<footer>
+    <div class="mt20">
+        星火小仓：做最好的电子元件商城
+        <br>
+        欢迎联系我们：100800600
+        <br>
+        地址：西安电子科技大学南校区
+    </div>
 
 </footer>
 </body>

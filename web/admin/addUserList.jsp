@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: lyb
   Date: 2023/7/4
-  Time: 10:02
+  Time: 11:22
   To change this template use File | Settings | File Templates.
 --%>
 <%--
@@ -27,6 +27,7 @@
     <script src="../js/pintuer.js"></script>
 </head>
 <body>
+<div style="overflow: scroll">
 <!-- start header -->
 
 <!--end header -->
@@ -80,48 +81,51 @@
             </div>
 
         </div>
-        <div class="rtcont fr">
-            <div class="panel admin-panel">
-                <div class="panel-head"><strong class="icon-reorder"> 用户列表</strong> <a href="" style="float:right; display:none;">添加字段</a></div>
-                <div class="padding border-bottom">
-                    <ul class="search" style="padding-left:10px;">
-                        <li> <a class="button border-main icon-plus-square-o" href="/back/addlist"> 添加内容</a> </li>
+        <div class="rtcont fr" style="overflow: scroll">
+
+            <div class="grzlbt ml40 ">添加用户</div>
+            <form action="/admin/doadduserlist" style="overflow-y: scroll">
+                <input type="text" hidden="hidden" name="id" value="" />
+                <div class="biaotou ml40"><span>昵称:</span>
+                </div><input type="text" class="xinxi ml40" value="" name="username" data-validate="required:请输入昵称" />
+
+                <div class="biaotou ml40"><span>密码:</span>
+                </div><input type="text" class="xinxi ml40" value="" name="password" data-validate="required:请输入密码" />
+
+                <div class="biaotou ml40"><span>手机号:</span></div>
+                <input type="text" class="xinxi ml40" value="" name="phone" data-validate="required:请输入手机号" />
+
+                <div class="biaotou ml40"><span>邮箱:</span></div>
+                <input type="text" class="xinxi ml40" value="" name="email" data-validate="required:请输入邮箱" />
+
+                <div class="biaotou ml40"><span>地址:</span></div>
+                <input type="text" class="xinxi ml40" value="" name="address" data-validate="required:请输入地址" />
+
+                <div class="biaotou ml40"><span>角色:</span></div>
+
+                <select type="text" class="xinxi ml40" name="role" >
+                    <option value="">请选择用户类型</option>
+                    <option value="0">管理员</option>
+                    <option value="1">卖家</option>
+                    <option value="2">买家</option>
+                </select>
+
+                <div class="biaotou ml40"><span>是否有效:</span></div>
+
+                <select type="text" class="xinxi ml40" name="active" >
+                    <option value="">请选择是否有效</option>
+                    <option value="0">无效</option>
+                    <option value="1">有效</option>
+
+                </select>
+                <%--<div class="xiugai ml40"><span><submit href="/user/doInfoUpdate">确认修改</submit></span></div>--%>
+                <input class="xiugai" type="submit" value="确认添加">
+
+            </form>
 
 
 
-                        <li>
-                            <input type="text" placeholder="请输入搜索关键字" name="keywords" class="input" style="width:250px; line-height:17px;display:inline-block" />
-                            <a href="javascript:void(0)" class="button border-main icon-search" onclick="changesearch()" > 搜索</a></li>
-                    </ul>
-                </div>
-                <table class="table table-hover text-center">
-                    <tr>
-                        <th width="100" style="text-align:left; padding-left:20px;">ID</th>
-                        <th  width="100" style="text-align:left; padding-left:20px;">用户名</th>
-                        <th  width="100" style="text-align:left; padding-left:20px;">密码</th>
-                        <th  width="100" style="text-align:left; padding-left:20px;">手机</th>
-                        <th width="100" style="text-align:left; padding-left:20px;">邮箱</th>
-                        <th width="100" style="text-align:left; padding-left:20px;">是否有效</th>
-                        <th  width="100" style="text-align:left; padding-left:20px;">角色</th>
-                        <th  width="100" style="text-align:left; padding-left:20px;">创建时间</th>
-                        <th>操作</th>
-                    </tr>
-                    <volist name="list" id="vo">
-                        <c:forEach items="${allusers}" var="u">
-                        <tr>
-                            <td style="text-align:left; padding-left:20px;">${u.id}</td>
-                            <td>${u.username}</td>
-                            <td>${u.password}</td>
-                            <td>${u.phone}</td>
-                            <td>${u.email}</td>
-                            <td>${u.active}</td>
-                            <td>${u.role}</td>
-                            <td>${u.createTime}</td>
-                            <td><div class="button-group"> <a class="button border-main" href="/admin/updateuserlist?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/admin/deleteuserlist?id=${u.id}"><span class="icon-trash-o"></span> 删除</a></div></td>
-                        </tr>
-                        </c:forEach>
-                </table>
-            </div>
+
         </div>
     </div>
     <div class="clear"></div>
@@ -131,9 +135,16 @@
 
 <!-- self_info -->
 
-<footer class="mt20 center">
-    <div class="mt20">星火小仓：做最好的电子元件商城</div>
+<footer>
+    <div class="mt20">
+        星火小仓：做最好的电子元件商城
+        <br>
+        欢迎联系我们：100800600
+        <br>
+        地址：西安电子科技大学南校区
+    </div>
 
 </footer>
+</div>
 </body>
 </html>

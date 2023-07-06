@@ -33,7 +33,9 @@ public class DoAddUserList extends HttpServlet {
         user.setPhone(phone);
         user.setRole(role);
         user.setActive(active);
+        user.setAddress(address);
         req.setAttribute("user",user);
+
 
 //添加成功-跳转用户列表；添加失败-跳转失败界面
         int add=dao.add(user);

@@ -95,8 +95,8 @@ public class HandleDao {
     }
 
     public int update(Handle handle) {
-        return  JDBCUtil.executeUpdate("update handle set name= ? ,parent_id = ?  where id =?",
-                handle.getName(),handle.getParentId(),handle.getId());
+        return  JDBCUtil.executeUpdate("update handle set name= ? ,parent_id = ? ,active=?  where id =?",
+                handle.getName(),handle.getParentId(),handle.getActive(),handle.getId());
     }
 
 

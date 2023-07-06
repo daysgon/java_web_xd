@@ -28,7 +28,7 @@ public class DoAddHandleList extends HttpServlet {
         int add=dao.add(handle);
         if(add>0)
         {
-            resp.sendRedirect("/admin/handle");
+            resp.sendRedirect("/admin/handlelist");
         }
         else
             //需修改

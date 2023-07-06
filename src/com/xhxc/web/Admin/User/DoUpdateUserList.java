@@ -23,10 +23,10 @@ private UserDao dao=new UserDao();
         String password = req.getParameter("password");
         String phone = req.getParameter("phone");
         String email = req.getParameter("email");
-    //    String address = req.getParameter("address");
-     //   req.getParameter("")
+       String address = req.getParameter("address");
+
         User user =new User();
-  //      user.setAddress(address);
+        user.setAddress(address);
         user.setEmail(email);
         user.setId(id);
         user.setUsername(username);
@@ -35,7 +35,7 @@ private UserDao dao=new UserDao();
         //修改成功-返回用户列表；修改失败-跳转提示界面
         int update =dao.update(user);
         if(update>0)
-            {resp.sendRedirect("/admin/userlsit");
+            {resp.sendRedirect("/admin/userlist");
 
             }
         else

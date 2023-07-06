@@ -816,204 +816,218 @@
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
     <table id="205" parent="2" name="goods"/>
-    <table id="206" parent="2" name="orders"/>
-    <table id="207" parent="2" name="user"/>
-    <column id="208" parent="205" name="goods_id">
+    <table id="206" parent="2" name="handle"/>
+    <table id="207" parent="2" name="orders"/>
+    <table id="208" parent="2" name="user"/>
+    <column id="209" parent="205" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="209" parent="205" name="goods_des">
-      <Position>2</Position>
-      <DataType>varchar(50)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="210" parent="205" name="goodsname">
+      <Position>2</Position>
+      <DataType>varchar(64)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="211" parent="205" name="message">
       <Position>3</Position>
-      <DataType>varchar(16)|0s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>varchar(128)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="211" parent="205" name="fatherlabel">
+    <column id="212" parent="205" name="img">
       <Position>4</Position>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>varchar(128)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="212" parent="205" name="sonlabel">
+    <column id="213" parent="205" name="store">
       <Position>5</Position>
-      <DataType>varchar(20)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="213" parent="205" name="seller">
-      <Position>6</Position>
-      <DataType>varchar(16)|0s</DataType>
-      <NotNull>1</NotNull>
+      <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="214" parent="205" name="price">
-      <Position>7</Position>
-      <DataType>double|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="215" parent="205" name="active">
-      <Position>8</Position>
-      <DataType>int(11)|0s</DataType>
-      <DefaultExpression>1</DefaultExpression>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="216" parent="205" name="img">
-      <Position>9</Position>
-      <DataType>varchar(50)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="217" parent="205" name="create_time">
-      <Position>10</Position>
-      <DataType>datetime|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="218" parent="205" name="goodsname">
-      <ColNames>goodsname</ColNames>
-      <Unique>1</Unique>
-      <Type>btree</Type>
-    </index>
-    <key id="219" parent="205" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>goods_id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <key id="220" parent="205" name="goodsname">
-      <ColNames>goodsname</ColNames>
-      <UnderlyingIndexName>goodsname</UnderlyingIndexName>
-    </key>
-    <column id="221" parent="206" name="order_id">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="222" parent="206" name="purchaser_id">
-      <Position>2</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="223" parent="206" name="good_id">
-      <Position>3</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="224" parent="206" name="good_name">
-      <Position>4</Position>
-      <DataType>varchar(16)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="225" parent="206" name="seller_id">
-      <Position>5</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="226" parent="206" name="seller_name">
       <Position>6</Position>
-      <DataType>varchar(16)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="227" parent="206" name="price">
-      <Position>7</Position>
       <DataType>double|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="228" parent="206" name="amount">
+    <column id="215" parent="205" name="hid">
+      <Position>7</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="216" parent="205" name="uid">
       <Position>8</Position>
       <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="229" parent="206" name="create_time">
+    <column id="217" parent="205" name="active">
       <Position>9</Position>
-      <DataType>datetime|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="230" parent="206" name="address">
-      <Position>10</Position>
-      <DataType>varchar(24)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="231" parent="206" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>order_id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="232" parent="207" name="id">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="233" parent="207" name="username">
-      <Position>2</Position>
-      <DataType>varchar(16)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="234" parent="207" name="password">
-      <Position>3</Position>
-      <DataType>varchar(16)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="235" parent="207" name="active">
-      <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>1</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="236" parent="207" name="phone">
-      <Position>5</Position>
-      <DataType>varchar(16)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="237" parent="207" name="email">
-      <Position>6</Position>
-      <DataType>varchar(24)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="238" parent="207" name="create_time">
-      <Position>7</Position>
-      <DataType>datetime|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="239" parent="207" name="role">
-      <Position>8</Position>
-      <DataType>tinyint(16)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="240" parent="207" name="address">
-      <Position>9</Position>
-      <DataType>varchar(30)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="241" parent="207" name="username">
-      <ColNames>username</ColNames>
-      <Unique>1</Unique>
-      <Type>btree</Type>
-    </index>
-    <key id="242" parent="207" name="PRIMARY">
+    <key id="218" parent="205" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="243" parent="207" name="username">
+    <column id="219" parent="206" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="220" parent="206" name="name">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="221" parent="206" name="parent_id">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="222" parent="206" name="active">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="223" parent="206" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="224" parent="207" name="order_id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="225" parent="207" name="purchaser_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="226" parent="207" name="good_id">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="227" parent="207" name="good_name">
+      <Position>4</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="228" parent="207" name="seller_id">
+      <Position>5</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="229" parent="207" name="seller_name">
+      <Position>6</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="230" parent="207" name="price">
+      <Position>7</Position>
+      <DataType>double|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="231" parent="207" name="amount">
+      <Position>8</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="232" parent="207" name="create_time">
+      <Position>9</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="233" parent="207" name="address">
+      <Position>10</Position>
+      <DataType>varchar(24)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="234" parent="207" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>order_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="235" parent="208" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="236" parent="208" name="username">
+      <Position>2</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="237" parent="208" name="password">
+      <Position>3</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="238" parent="208" name="active">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>1</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="239" parent="208" name="phone">
+      <Position>5</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="240" parent="208" name="email">
+      <Position>6</Position>
+      <DataType>varchar(24)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="241" parent="208" name="create_time">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="242" parent="208" name="role">
+      <Position>8</Position>
+      <DataType>tinyint(16)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="243" parent="208" name="address">
+      <Position>9</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="244" parent="208" name="username">
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="245" parent="208" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="246" parent="208" name="username">
       <ColNames>username</ColNames>
       <UnderlyingIndexName>username</UnderlyingIndexName>
     </key>

@@ -18,7 +18,7 @@ public class AddHandleList extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ArrayList<Handle> handlesByParentId =dao.getHandlesByParentId();
-        req.setAttribute("all",handlesByParentId);
+        req.setAttribute("allparenthandles",handlesByParentId);
         req.getRequestDispatcher("/admin/addHandleList.jsp").forward(req,resp);
     }
 }

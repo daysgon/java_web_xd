@@ -22,17 +22,18 @@ public class DoUpdateHandleList extends HttpServlet {
         int id = Integer.parseInt(req.getParameter("id"));
         String name = req.getParameter("name");
         int parentId = Integer.parseInt(req.getParameter("parentId"));
-
+        int active = Integer.parseInt(req.getParameter("active"));
         Handle handle=new Handle();
         handle.setName(name);
         handle.setParentId(parentId);
         handle.setId(id);
+        handle.setActive(active);
         int update=dao.update(handle);
         if (update>0){
-            resp.sendRedirect("/admin/handlelisy");
+            resp.sendRedirect("/admin/handlelist");
         }else{
             req.setAttribute("msg","修改失败");
-            req.getRequestDispatcher("/back/fail.jsp").forward(req,resp);
+            req.getRequestDispatcher("/fail.jsp").forward(req,resp);
         }
     }
 }
