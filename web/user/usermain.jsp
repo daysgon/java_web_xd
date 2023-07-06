@@ -42,7 +42,7 @@
         <ul>
             <li>
                 <div  style="text-align: right">
-                    <a href="./login.html" target="_blank">退出登录</a>|<a href="./register.html" target="_blank" >注册</a>|<a href="./self_info.html">返回首页</a>
+                    <a href="/index/login" target="_blank">退出登录</a>|<a href="/index/register" target="_blank" >注册</a>|<a href="/index/index">返回首页</a>
                 </div>
 
             </li>
@@ -94,7 +94,10 @@
                             <td><div class="button-group"> <a class="button border-main" href="/user/orderUpdate?id=${u.orderId}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/user/orderDelete?id=${u.orderId}"><span class="icon-trash-o"></span> 删除</a></td></td>
                         </tr>
                         </c:forEach>
+
                 </table>
+                <div class="biaotou ml40"><span>总价:</span></div><div type="text" class="price ml40" >${totalPrice}￥</div>
+                <div class="fukuan" ><a href="">立即付款</a></div>
             </div>
         </div>
     </div>

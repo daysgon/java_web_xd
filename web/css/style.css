@@ -241,6 +241,12 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 
 .grzxbj .selfinfo .rtcont .xinxi{float: left ;height: 45px;line-height: 45px;width: 700px;background: rgb(253,253,253);border:1px solid #aaa;margin-top: 10px;margin-bottom: 10px;border-radius: 3px;}
 .grzxbj .selfinfo .rtcont .xinxi{text-align:left ;left:5%;width:700px;height: 45px;line-height: 45px;font-size: 17px;color:rgb(117,117,117);}
+
+.grzxbj .selfinfo .rtcont .price{float: right;right: 30% ;height: 45px;line-height: 45px;width: 700px;border:0px solid #aaa;margin-top: 10px;margin-bottom: 10px;border-radius: 10px;}
+.grzxbj .selfinfo .rtcont .price{float:right ; right :30%;text-align:right ;right:5%;width:700px;height: 45px;line-height: 45px;font-size: 26px;color:rgb(178,34,34);}
+
+.grzxbj .selfinfo .rtcont .fukuan{float: right;right: 30% ;height: 45px;line-height: 45px;width: 100px;border:1px solid #aaa;margin-top: 10px;margin-bottom: 10px;border-radius: 10px;}
+.grzxbj .selfinfo .rtcont .fukuan{float:right ; right :30%; text-align:center ;width:100px;height: 45px;line-height: 45px;font-size: 22px;color:rgb(255,36,0);}
 /*订单中心*/
 .grzxbj .selfinfo .rtcont .ddxq{width: 938px;height: 120px;line-height: 120px;font-size: 17px;color:rgb(117,117,117); 
 	border-bottom: 1px solid #ccc;padding-left: 40px;}
