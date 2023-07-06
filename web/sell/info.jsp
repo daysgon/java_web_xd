@@ -109,7 +109,7 @@
             <div class="ddzx">个人中心</div>
             <div class="subddzx" style="font-size: 16px;">
                 <ul>
-                    <li><a href="/sellinfo" style="color:#ff6700;font-weight:bold;">我的个人中心</a></li>
+                    <li><a href="/sell/info" style="color:#ff6700;font-weight:bold;">我的个人中心</a></li>
                     <li><a href="">消息通知</a></li>
                     <li><a href="">优惠券</a></li>
                     <li><a href="">收货地址</a></li>

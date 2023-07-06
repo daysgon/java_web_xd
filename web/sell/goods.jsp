@@ -183,7 +183,7 @@
                             <td>${u.active}</td>
                             <td>${u.hid}</td>
                             <td>${u.uid}</td>
-                            <td><div class="button-group"> <a class="button border-main" href="/sell/goodsUpdate?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/sell/goodsDel?id=${u.id}"><span class="icon-trash-o"></span> 删除</a> </div></td>
+                            <td><div class="button-group"> <a class="button border-main" href="/sell/goodsUpdate?id=${u.id}"><span class="icon-edit"></span> 修改</a> <a class="button border-red" href="/sell/goodsDelete?id=${u.id}"><span class="icon-trash-o"></span> 删除</a> </div></td>
                         </tr>
                         </c:forEach>
 

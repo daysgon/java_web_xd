@@ -112,15 +112,16 @@
         <div class="rtcont fr">
             ${users}
             <div class="panel admin-panel">
-                <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>增加内容</strong></div>
+                <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>修改内容</strong></div>
                 <div class="body-content">
-                    <form method="post" enctype="multipart/form-data" class="form-x" action="/sell/doGoodsAdd">
+                    <form method="post" enctype="multipart/form-data" class="form-x" action="/sell/doGoodsUpdate">
+                        <input type="text" hidden="hidden"  name="id" value="${goods.id}"/>
                         <div class="form-group">
                             <div class="label">
                                 <label>商品名：</label>
                             </div>
                             <div class="field">
-                                <input type="text" class="input w50" value="" name="goodsname" data-validate="required:请输入商品名" />
+                                <input type="text" class="input w50"  name="goodsname" value="${goods.goodsname}" data-validate="required:请输入商品名" />
                                 <div class="tips"></div>
                             </div>
                         </div>
@@ -129,7 +130,7 @@
                                 <label>商品价格：</label>
                             </div>
                             <div class="field">
-                                <input type="text" class="input w50" value="" name="price" data-validate="required:请输入商品价格" />
+                                <input type="text" class="input w50"  name="price" value="${goods.price}" data-validate="required:请输入商品价格" />
                                 <div class="tips"></div>
                             </div>
                         </div>
@@ -138,7 +139,7 @@
                                 <label>商品库存：</label>
                             </div>
                             <div class="field">
-                                <input type="text" class="input w50" value="" name="store" data-validate="required:请输入商品库存" />
+                                <input type="text" class="input w50"  name="store" value="${goods.store}" data-validate="required:请输入商品库存" />
                                 <div class="tips"></div>
                             </div>
                         </div>
@@ -147,7 +148,7 @@
                                 <label>商品描述：</label>
                             </div>
                             <div class="field">
-                                <input type="text" class="input w50" value="" name="message" data-validate="required:请输入商品描述" />
+                                <input type="text" class="input w50"  name="message" value="${goods.message}" data-validate="required:请输入商品描述" />
                                 <div class="tips"></div>
                             </div>
                         </div>
@@ -157,7 +158,7 @@
                                 <label>商品图片：</label>
                             </div>
                             <div class="field">
-                                <input type="file" class="input w50" value="" name="img"  />
+                                <input type="file" class="input w50"  name="img" value="${goods.img}" />
                             </div>
                         </div>
 
@@ -170,7 +171,7 @@
                                 <select name="hid" class="input w50">
                                     <%--已有品类的列表 一级品类获取 下拉条的显示--%>
                                     <c:forEach items="${all}" var="i">
-                                        <option value="${i.id}">${i.name}</option>
+                                        <option <c:if test="${goods.hid==i.id}"> selected="selected" </c:if> value="${i.id}">${i.name}</option>
                                     </c:forEach>
                                 </select>
                                 <div class="tips"></div>
@@ -184,7 +185,7 @@
                             <div class="field">
                                 <select name="uid" class="input w50">
                                     <%--已有品类的列表 一级品类获取 下拉条的显示--%>
-                                        <option value="${user.id}">${user.username}</option>
+                                    <option value="${user.id}">${user.username}</option>
                                 </select>
                                 <div class="tips"></div>
                             </div>

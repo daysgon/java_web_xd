@@ -15,13 +15,13 @@ import java.io.IOException;
 import java.io.InputStream;
 
 @MultipartConfig
-@WebServlet("/sell/doGoodsAdd")
-public class SellerDoGoodsAdd extends HttpServlet {
+@WebServlet("/sell/doGoodsUpdate")
+public class SellerDoGoodsUpdate extends HttpServlet {
     private GoodsDao dao = new GoodsDao();
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
         req.setCharacterEncoding("utf-8");
+        int id = Integer.parseInt(req.getParameter("id"));
         String goodsname = req.getParameter("goodsname");
         String message = req.getParameter("message");
         double price = Double.parseDouble(req.getParameter("price"));
@@ -39,6 +39,7 @@ public class SellerDoGoodsAdd extends HttpServlet {
 //        数据库存储的图片的访问路径
         String dbPath = "http://localhost:8080/image/"+fileName;
         Goods g = new Goods();
+        g.setId(id);
         g.setUid(uid);
         g.setGoodsname(goodsname);
         g.setMessage(message);
@@ -47,12 +48,12 @@ public class SellerDoGoodsAdd extends HttpServlet {
         g.setStore(store);
         g.setPrice(price);
         g.setImg(dbPath);
-        int a = dao.add(g);
+        int a = dao.update(g);
         System.out.println(g);
         if(a>0) {
             resp.sendRedirect("/sell/goods");
         }else{
-            req.setAttribute("msg","添加失败");
+            req.setAttribute("msg","修改失败");
             req.getRequestDispatcher("/fail.jsp").forward(req,resp);
         }
     }
