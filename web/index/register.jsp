@@ -12,7 +12,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="order by dede58.com"/>
     <title>用户注册</title>
-    <link rel="stylesheet" type="text/css" href="/css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
 
 </head>
 <body>

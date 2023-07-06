@@ -6,13 +6,13 @@
     <meta charset="UTF-8">
     <meta name="author" content="order by dede58.com"/>
     <title>会员登录</title>
-    <link rel="stylesheet" type="text/css" href="/css/login.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
 <body>
 <!-- login -->
 <div class="top center">
     <div class="logo center">
-        <a href="/index/index.jsp" target="_blank"><img src="./image/mistore_logo.png" alt=""></a>
+        <a href="index.jsp" target="_blank"><img src="image/logo.png" alt=""></a>
     </div>
 </div>
 <form  method="post" action="/index/doLogin" class="form center">
