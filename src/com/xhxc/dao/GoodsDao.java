@@ -46,7 +46,7 @@ public class GoodsDao {
 
     //    根据id查一个
 
-    public Goods getById(int id){
+    public Goods getOneById(int id){
         return JDBCUtil.QueryOne("select * from goods where id=?", new RowMap<Goods>() {
             @Override
             public Goods rowMapping(ResultSet rs) {
